@@ -29,6 +29,9 @@ $plang = array_merge($plang, array(
   
   // Portal Modul
   'rs_no_realmname'            => 'Kein Server angegeben',
+  
+  //Help
+  'rs_realm_help'      		   => 'Bei WoW Servern die aus mehreren Wörtern bestehen, müssen die Leerzeichen durch einen Unterstrich ersetzt werden. z.b. Die_Todeskrallen ',
 ));
 
 ?>

@@ -29,6 +29,9 @@ $plang = array_merge($plang, array(
   
   // Portal Modul
   'rs_no_realmname'            => 'No realm specified',
+  
+  'rs_realm_help'      		   => 'Replace whitespace with _ on servers with 2 words. Like die_todeskrallen.',
+
 ));
 
 ?>
