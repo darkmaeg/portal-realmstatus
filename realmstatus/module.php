@@ -25,17 +25,16 @@ $portal_module['realmstatus'] = array(                     // the same name as t
 			'name'			    => 'Realmstatus Module',             // The name to show
 			'path'			    => 'realmstatus',                    // Folder name again
 			'version'		    => '0.0.1',                          // Version
-			'author'        => 'Aderyn',                         // Author
+			'author'        	=> 'Aderyn',                         // Author
 			'contact'		    => 'Aderyn@gmx.net',                 // email adress
-			'description'   => 'Show Realmstatus',               // Detailed Description
-			'positions'     => array('left1', 'left2', 'right'), // Which blocks should be usable? left1 (over menu), left2 (under menu), right, middle
-      'signedin'      => '0',                              // 0 = all users, 1 = signed in only
-      'install'       => array(
-                           'autoenable'        => '0',
-                           'defaultposition'   => 'right',
-                           'defaultnumber'     => '5',
-                         ),
-    );
+			'description'   	=> 'Show Realmstatus',               // Detailed Description
+			'positions'     	=> array('left1', 'left2', 'right'), // Which blocks should be usable? left1 (over menu), left2 (under menu), right, middle
+      		'signedin'      	=> '0',                              // 0 = all users, 1 = signed in only
+      		'install'       	=> array(
+				                           'autoenable'        => '0',
+				                           'defaultposition'   => 'right',
+				                           'defaultnumber'     => '5', ),				                          
+			);
 
 /* Define the Settings if needed
 
@@ -54,6 +53,7 @@ $portal_settings['realmstatus'] = array(
         'language'  => 'rs_realm',
         'property'  => 'text',
         'size'      => '40',
+        'help'      => 'rs_realm_help',
       ),
 );
 
