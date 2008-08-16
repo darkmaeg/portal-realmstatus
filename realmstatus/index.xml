@@ -1,0 +1,2445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>EU Realm Status</title>
+        <link>http://www.wow-europe.com/realmstatus/index.html</link>
+        <description>World of Warcraft Realms status</description>
+        <ttl>0</ttl>
+        <category>Europe</category>
+        <language>en-gb</language>
+        <pubDate>Thu, 14 Aug 2008 09:30:15 UTC</pubDate>
+        <lastBuildDate>Thu, 14 Aug 2008 09:30:00 UTC</lastBuildDate>
+	    
+        <item>
+            <title>Aerie Peak</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Aerie Peak</link>
+            <description>Aerie Peak - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM15</guid>
+        </item><item>
+            <title>Agamaggan</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Agamaggan</link>
+            <description>Agamaggan - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM19</guid>
+        </item><item>
+            <title>Aggramar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Aggramar</link>
+            <description>Aggramar - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM01</guid>
+        </item><item>
+            <title>Ahn&#039;Qiraj</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Ahn&#039;Qiraj</link>
+            <description>Ahn&#039;Qiraj - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM14</guid>
+        </item><item>
+            <title>Al&#039;Akir</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Al&#039;Akir</link>
+            <description>Al&#039;Akir - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM20</guid>
+        </item><item>
+            <title>Alonsus</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Alonsus</link>
+            <description>Alonsus - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM14</guid>
+        </item><item>
+            <title>Anachronos</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Anachronos</link>
+            <description>Anachronos - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM17</guid>
+        </item><item>
+            <title>Arathor</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Arathor</link>
+            <description>Arathor - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM02</guid>
+        </item><item>
+            <title>Argent Dawn</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Argent Dawn</link>
+            <description>Argent Dawn - Realm Up - Lang en - Type RP-PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">RP-PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM37</guid>
+        </item><item>
+            <title>Aszune</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Aszune</link>
+            <description>Aszune - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM03</guid>
+        </item><item>
+            <title>Auchindoun</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Auchindoun</link>
+            <description>Auchindoun - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM11</guid>
+        </item><item>
+            <title>Azjol-Nerub</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Azjol-Nerub</link>
+            <description>Azjol-Nerub - Realm Up - Lang en - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM04</guid>
+        </item><item>
+            <title>Balnazzar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Balnazzar</link>
+            <description>Balnazzar - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM08</guid>
+        </item><item>
+            <title>Blade&#039;s Edge</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Blade&#039;s Edge</link>
+            <description>Blade&#039;s Edge - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM43</guid>
+        </item><item>
+            <title>Bladefist</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Bladefist</link>
+            <description>Bladefist - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM22</guid>
+        </item><item>
+            <title>Bloodfeather</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Bloodfeather</link>
+            <description>Bloodfeather - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM31</guid>
+        </item><item>
+            <title>Bloodhoof</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Bloodhoof</link>
+            <description>Bloodhoof - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM05</guid>
+        </item><item>
+            <title>Bloodscalp</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Bloodscalp</link>
+            <description>Bloodscalp - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM23</guid>
+        </item><item>
+            <title>Boulderfist</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Boulderfist</link>
+            <description>Boulderfist - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM02</guid>
+        </item><item>
+            <title>Bronze Dragonflight</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Bronze Dragonflight</link>
+            <description>Bronze Dragonflight - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM16</guid>
+        </item><item>
+            <title>Bronzebeard</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Bronzebeard</link>
+            <description>Bronzebeard - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM02</guid>
+        </item><item>
+            <title>Burning Blade</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Burning Blade</link>
+            <description>Burning Blade - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM24</guid>
+        </item><item>
+            <title>Burning Legion</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Burning Legion</link>
+            <description>Burning Legion - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM25</guid>
+        </item><item>
+            <title>Burning Steppes</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Burning Steppes</link>
+            <description>Burning Steppes - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM15</guid>
+        </item><item>
+            <title>Chromaggus</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Chromaggus</link>
+            <description>Chromaggus - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM04</guid>
+        </item><item>
+            <title>Crushridge</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Crushridge</link>
+            <description>Crushridge - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM26</guid>
+        </item><item>
+            <title>Daggerspine</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Daggerspine</link>
+            <description>Daggerspine - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM27</guid>
+        </item><item>
+            <title>Darkmoon Faire</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Darkmoon Faire</link>
+            <description>Darkmoon Faire - Realm Up - Lang en - Type RP-PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">RP-PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM13</guid>
+        </item><item>
+            <title>Darksorrow</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Darksorrow</link>
+            <description>Darksorrow - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM32</guid>
+        </item><item>
+            <title>Darkspear</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Darkspear</link>
+            <description>Darkspear - Realm Up - Lang en - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM12</guid>
+        </item><item>
+            <title>Deathwing</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Deathwing</link>
+            <description>Deathwing - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM28</guid>
+        </item><item>
+            <title>Defias Brotherhood</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Defias Brotherhood</link>
+            <description>Defias Brotherhood - Realm Up - Lang en - Type RP-PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">RP-PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM36</guid>
+        </item><item>
+            <title>Dentarg</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Dentarg</link>
+            <description>Dentarg - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM05</guid>
+        </item><item>
+            <title>Doomhammer</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Doomhammer</link>
+            <description>Doomhammer - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM06</guid>
+        </item><item>
+            <title>Draenor</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Draenor</link>
+            <description>Draenor - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM07</guid>
+        </item><item>
+            <title>Dragonblight</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Dragonblight</link>
+            <description>Dragonblight - Realm Up - Lang en - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM08</guid>
+        </item><item>
+            <title>Dragonmaw</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Dragonmaw</link>
+            <description>Dragonmaw - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM29</guid>
+        </item><item>
+            <title>Drak&#039;thul</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Drak&#039;thul</link>
+            <description>Drak&#039;thul - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM13</guid>
+        </item><item>
+            <title>Dunemaul</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Dunemaul</link>
+            <description>Dunemaul - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM30</guid>
+        </item><item>
+            <title>Earthen Ring</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Earthen Ring</link>
+            <description>Earthen Ring - Realm Up - Lang en - Type RP-PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">RP-PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM15</guid>
+        </item><item>
+            <title>Emerald Dream</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Emerald Dream</link>
+            <description>Emerald Dream - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM09</guid>
+        </item><item>
+            <title>Emeriss</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Emeriss</link>
+            <description>Emeriss - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM12</guid>
+        </item><item>
+            <title>Eonar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Eonar</link>
+            <description>Eonar - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM13</guid>
+        </item><item>
+            <title>Executus</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Executus</link>
+            <description>Executus - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM08</guid>
+        </item><item>
+            <title>Frostmane</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Frostmane</link>
+            <description>Frostmane - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM03</guid>
+        </item><item>
+            <title>Frostwhisper</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Frostwhisper</link>
+            <description>Frostwhisper - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM33</guid>
+        </item><item>
+            <title>Genjuros</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Genjuros</link>
+            <description>Genjuros - Realm Up - Lang en - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM07</guid>
+        </item><item>
+            <title>Ghostlands</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Ghostlands</link>
+            <description>Ghostlands - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM02</guid>
+        </item><item>
+            <title>Grim Batol</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Grim Batol</link>
+            <description>Grim Batol - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM06</guid>
+        </item><item>
+            <title>Hakkar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Hakkar</link>
+            <description>Hakkar - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM36</guid>
+        </item><item>
+            <title>Haomarush</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Haomarush</link>
+            <description>Haomarush - Realm Up - Lang en - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM39</guid>
+        </item><item>
+            <title>Hellfire</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Hellfire</link>
+            <description>Hellfire - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM01</guid>
+        </item><item>
+            <title>Hellscream</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Hellscream</link>
+            <description>Hellscream - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM20</guid>
+        </item><item>
+            <title>Jaedenar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Jaedenar</link>
+            <description>Jaedenar - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM07</guid>
+        </item><item>
+            <title>Karazhan</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Karazhan</link>
+            <description>Karazhan - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM10</guid>
+        </item><item>
+            <title>Kazzak</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Kazzak</link>
+            <description>Kazzak - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM08</guid>
+        </item><item>
+            <title>Khadgar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Khadgar</link>
+            <description>Khadgar - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM01</guid>
+        </item><item>
+            <title>Kilrogg</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Kilrogg</link>
+            <description>Kilrogg - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM14</guid>
+        </item><item>
+            <title>Kor&#039;gall</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Kor&#039;gall</link>
+            <description>Kor&#039;gall - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM20</guid>
+        </item><item>
+            <title>Kul Tiras</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Kul Tiras</link>
+            <description>Kul Tiras - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM03</guid>
+        </item><item>
+            <title>Laughing Skull</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Laughing Skull</link>
+            <description>Laughing Skull - Realm Up - Lang en - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM22</guid>
+        </item><item>
+            <title>Lightbringer</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Lightbringer</link>
+            <description>Lightbringer - Realm Up - Lang en - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM11</guid>
+        </item><item>
+            <title>Lightning&#039;s Blade</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Lightning&#039;s Blade</link>
+            <description>Lightning&#039;s Blade - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM38</guid>
+        </item><item>
+            <title>Magtheridon</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Magtheridon</link>
+            <description>Magtheridon - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM23</guid>
+        </item><item>
+            <title>Mazrigos</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Mazrigos</link>
+            <description>Mazrigos - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM10</guid>
+        </item><item>
+            <title>Molten Core</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Molten Core</link>
+            <description>Molten Core - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM19</guid>
+        </item><item>
+            <title>Moonglade</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Moonglade</link>
+            <description>Moonglade - Realm Up - Lang en - Type RP-PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">RP-PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM06</guid>
+        </item><item>
+            <title>Nagrand</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Nagrand</link>
+            <description>Nagrand - Realm Up - Lang en - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM03</guid>
+        </item><item>
+            <title>Neptulon</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Neptulon</link>
+            <description>Neptulon - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM25</guid>
+        </item><item>
+            <title>Nordrassil</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Nordrassil</link>
+            <description>Nordrassil - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM19</guid>
+        </item><item>
+            <title>Outland</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Outland</link>
+            <description>Outland - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM04</guid>
+        </item><item>
+            <title>Quel&#039;Thalas</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Quel&#039;Thalas</link>
+            <description>Quel&#039;Thalas - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM24</guid>
+        </item><item>
+            <title>Ragnaros</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Ragnaros</link>
+            <description>Ragnaros - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM27</guid>
+        </item><item>
+            <title>Ravencrest</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Ravencrest</link>
+            <description>Ravencrest - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM08</guid>
+        </item><item>
+            <title>Ravenholdt</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Ravenholdt</link>
+            <description>Ravenholdt - Realm Up - Lang en - Type RP-PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">RP-PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM11</guid>
+        </item><item>
+            <title>Runetotem</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Runetotem</link>
+            <description>Runetotem - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM01</guid>
+        </item><item>
+            <title>Scarshield Legion</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Scarshield Legion</link>
+            <description>Scarshield Legion - Realm Up - Lang en - Type RP-PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">RP-PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM41</guid>
+        </item><item>
+            <title>Shadowmoon</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Shadowmoon</link>
+            <description>Shadowmoon - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM09</guid>
+        </item><item>
+            <title>Shadowsong</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Shadowsong</link>
+            <description>Shadowsong - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM02</guid>
+        </item><item>
+            <title>Shattered Halls</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Shattered Halls</link>
+            <description>Shattered Halls - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM12</guid>
+        </item><item>
+            <title>Shattered Hand</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Shattered Hand</link>
+            <description>Shattered Hand - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM10</guid>
+        </item><item>
+            <title>Silvermoon</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Silvermoon</link>
+            <description>Silvermoon - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM03</guid>
+        </item><item>
+            <title>Skullcrusher</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Skullcrusher</link>
+            <description>Skullcrusher - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM11</guid>
+        </item><item>
+            <title>Spinebreaker</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Spinebreaker</link>
+            <description>Spinebreaker - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM12</guid>
+        </item><item>
+            <title>Steamwheedle Cartel</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Steamwheedle Cartel</link>
+            <description>Steamwheedle Cartel - Realm Up - Lang en - Type RP-PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">RP-PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM38</guid>
+        </item><item>
+            <title>Stonemaul</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Stonemaul</link>
+            <description>Stonemaul - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM05</guid>
+        </item><item>
+            <title>Stormrage</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Stormrage</link>
+            <description>Stormrage - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM04</guid>
+        </item><item>
+            <title>Stormreaver</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Stormreaver</link>
+            <description>Stormreaver - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM13</guid>
+        </item><item>
+            <title>Stormscale</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Stormscale</link>
+            <description>Stormscale - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM14</guid>
+        </item><item>
+            <title>Sunstrider</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Sunstrider</link>
+            <description>Sunstrider - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM12</guid>
+        </item><item>
+            <title>Sylvanas</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Sylvanas</link>
+            <description>Sylvanas - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM29</guid>
+        </item><item>
+            <title>Talnivarr</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Talnivarr</link>
+            <description>Talnivarr - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM11</guid>
+        </item><item>
+            <title>Tarren Mill</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Tarren Mill</link>
+            <description>Tarren Mill - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM09</guid>
+        </item><item>
+            <title>Terenas</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Terenas</link>
+            <description>Terenas - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM05</guid>
+        </item><item>
+            <title>The Maelstrom</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#The Maelstrom</link>
+            <description>The Maelstrom - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM28</guid>
+        </item><item>
+            <title>The Sha&#039;tar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#The Sha&#039;tar</link>
+            <description>The Sha&#039;tar - Realm Up - Lang en - Type RP-PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">RP-PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM09</guid>
+        </item><item>
+            <title>The Venture Co.</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#The Venture Co.</link>
+            <description>The Venture Co. - Realm Up - Lang en - Type RP-PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">RP-PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM37</guid>
+        </item><item>
+            <title>Thunderhorn</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Thunderhorn</link>
+            <description>Thunderhorn - Realm Up - Lang en - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM06</guid>
+        </item><item>
+            <title>Trollbane</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Trollbane</link>
+            <description>Trollbane - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM09</guid>
+        </item><item>
+            <title>Turalyon</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Turalyon</link>
+            <description>Turalyon - Realm Up - Lang en - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM07</guid>
+        </item><item>
+            <title>Twilight&#039;s Hammer</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Twilight&#039;s Hammer</link>
+            <description>Twilight&#039;s Hammer - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM14</guid>
+        </item><item>
+            <title>Twisting Nether</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Twisting Nether</link>
+            <description>Twisting Nether - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM26</guid>
+        </item><item>
+            <title>Vashj</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Vashj</link>
+            <description>Vashj - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM30</guid>
+        </item><item>
+            <title>Vek&#039;nilash</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Vek&#039;nilash</link>
+            <description>Vek&#039;nilash - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM01</guid>
+        </item><item>
+            <title>Warsong</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Warsong</link>
+            <description>Warsong - Realm Up - Lang en - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM21</guid>
+        </item><item>
+            <title>Wildhammer</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Wildhammer</link>
+            <description>Wildhammer - Realm Up - Lang en - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM16</guid>
+        </item><item>
+            <title>Xavius</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Xavius</link>
+            <description>Xavius - Realm Up - Lang en - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM37</guid>
+        </item><item>
+            <title>Zenedar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Zenedar</link>
+            <description>Zenedar - Realm Up - Lang en - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">en</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM16</guid>
+        </item><item>
+            <title>Aegwynn</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Aegwynn</link>
+            <description>Aegwynn - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM31</guid>
+        </item><item>
+            <title>Alexstrasza</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Alexstrasza</link>
+            <description>Alexstrasza - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM16</guid>
+        </item><item>
+            <title>Alleria</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Alleria</link>
+            <description>Alleria - Realm Up - Lang de - Type PvE - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM17</guid>
+        </item><item>
+            <title>Aman&#039;Thul</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Aman&#039;Thul</link>
+            <description>Aman&#039;Thul - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM02</guid>
+        </item><item>
+            <title>Ambossar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Ambossar</link>
+            <description>Ambossar - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM37</guid>
+        </item><item>
+            <title>Anetheron</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Anetheron</link>
+            <description>Anetheron - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM25</guid>
+        </item><item>
+            <title>Antonidas</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Antonidas</link>
+            <description>Antonidas - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM18</guid>
+        </item><item>
+            <title>Anub&#039;arak</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Anub&#039;arak</link>
+            <description>Anub&#039;arak - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM09</guid>
+        </item><item>
+            <title>Arthas</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Arthas</link>
+            <description>Arthas - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM32</guid>
+        </item><item>
+            <title>Arygos</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Arygos</link>
+            <description>Arygos - Realm Up - Lang de - Type PvE - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM33</guid>
+        </item><item>
+            <title>Azshara</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Azshara</link>
+            <description>Azshara - Realm Up - Lang de - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM33</guid>
+        </item><item>
+            <title>Baelgun</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Baelgun</link>
+            <description>Baelgun - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM19</guid>
+        </item><item>
+            <title>Blackhand</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Blackhand</link>
+            <description>Blackhand - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM20</guid>
+        </item><item>
+            <title>Blackmoore</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Blackmoore</link>
+            <description>Blackmoore - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM34</guid>
+        </item><item>
+            <title>Blackrock</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Blackrock</link>
+            <description>Blackrock - Realm Up - Lang de - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM35</guid>
+        </item><item>
+            <title>Blutkessel</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Blutkessel</link>
+            <description>Blutkessel - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM31</guid>
+        </item><item>
+            <title>Dalvengyr</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Dalvengyr</link>
+            <description>Dalvengyr - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM28</guid>
+        </item><item>
+            <title>Das Konsortium</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Das Konsortium</link>
+            <description>Das Konsortium - Realm Up - Lang de - Type RP-PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM37</guid>
+        </item><item>
+            <title>Das Syndikat</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Das Syndikat</link>
+            <description>Das Syndikat - Realm Up - Lang de - Type RP-PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM15</guid>
+        </item><item>
+            <title>Der abyssische Rat</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Der abyssische Rat</link>
+            <description>Der abyssische Rat - Realm Up - Lang de - Type RP-PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM33</guid>
+        </item><item>
+            <title>Der Mithrilorden</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Der Mithrilorden</link>
+            <description>Der Mithrilorden - Realm Up - Lang de - Type RP-PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM36</guid>
+        </item><item>
+            <title>Der Rat von Dalaran</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Der Rat von Dalaran</link>
+            <description>Der Rat von Dalaran - Realm Up - Lang de - Type RP-PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM18</guid>
+        </item><item>
+            <title>Destromath</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Destromath</link>
+            <description>Destromath - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM36</guid>
+        </item><item>
+            <title>Dethecus</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Dethecus</link>
+            <description>Dethecus - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM26</guid>
+        </item><item>
+            <title>Die Aldor</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Die Aldor</link>
+            <description>Die Aldor - Realm Up - Lang de - Type RP-PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM36</guid>
+        </item><item>
+            <title>Die Arguswacht</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Die Arguswacht</link>
+            <description>Die Arguswacht - Realm Up - Lang de - Type RP-PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM42</guid>
+        </item><item>
+            <title>Die ewige Wacht</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Die ewige Wacht</link>
+            <description>Die ewige Wacht - Realm Up - Lang de - Type RP-PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM39</guid>
+        </item><item>
+            <title>Die Nachtwache</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Die Nachtwache</link>
+            <description>Die Nachtwache - Realm Up - Lang de - Type RP-PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM40</guid>
+        </item><item>
+            <title>Die Silberne Hand</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Die Silberne Hand</link>
+            <description>Die Silberne Hand - Realm Up - Lang de - Type RP-PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM30</guid>
+        </item><item>
+            <title>Die Todeskrallen</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Die Todeskrallen</link>
+            <description>Die Todeskrallen - Realm Up - Lang de - Type RP-PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM40</guid>
+        </item><item>
+            <title>Dun Morogh</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Dun Morogh</link>
+            <description>Dun Morogh - Realm Up - Lang de - Type PvE - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM01</guid>
+        </item><item>
+            <title>Durotan</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Durotan</link>
+            <description>Durotan - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM31</guid>
+        </item><item>
+            <title>Echsenkessel</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Echsenkessel</link>
+            <description>Echsenkessel - Realm Up - Lang de - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM30</guid>
+        </item><item>
+            <title>Eredar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Eredar</link>
+            <description>Eredar - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM37</guid>
+        </item><item>
+            <title>Festung der Stürme</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Festung der Stürme</link>
+            <description>Festung der Stürme - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM29</guid>
+        </item><item>
+            <title>Forscherliga</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Forscherliga</link>
+            <description>Forscherliga - Realm Up - Lang de - Type RP-PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM25</guid>
+        </item><item>
+            <title>Frostmourne</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Frostmourne</link>
+            <description>Frostmourne - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM38</guid>
+        </item><item>
+            <title>Frostwolf</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Frostwolf</link>
+            <description>Frostwolf - Realm Up - Lang de - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM39</guid>
+        </item><item>
+            <title>Gilneas</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Gilneas</link>
+            <description>Gilneas - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM21</guid>
+        </item><item>
+            <title>Gorgonnash</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Gorgonnash</link>
+            <description>Gorgonnash - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM40</guid>
+        </item><item>
+            <title>Gul&#039;dan</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Gul&#039;dan</link>
+            <description>Gul&#039;dan - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM41</guid>
+        </item><item>
+            <title>Kargath</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Kargath</link>
+            <description>Kargath - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM22</guid>
+        </item><item>
+            <title>Kel&#039;Thuzad</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Kel&#039;Thuzad</link>
+            <description>Kel&#039;Thuzad - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM42</guid>
+        </item><item>
+            <title>Khaz&#039;goroth</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Khaz&#039;goroth</link>
+            <description>Khaz&#039;goroth - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM23</guid>
+        </item><item>
+            <title>Kil&#039;Jaeden</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Kil&#039;Jaeden</link>
+            <description>Kil&#039;Jaeden - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM43</guid>
+        </item><item>
+            <title>Krag&#039;jin</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Krag&#039;jin</link>
+            <description>Krag&#039;jin - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM17</guid>
+        </item><item>
+            <title>Kult der Verdammten</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Kult der Verdammten</link>
+            <description>Kult der Verdammten - Realm Up - Lang de - Type RP-PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM14</guid>
+        </item><item>
+            <title>Lordaeron</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Lordaeron</link>
+            <description>Lordaeron - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM34</guid>
+        </item><item>
+            <title>Lothar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Lothar</link>
+            <description>Lothar - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM24</guid>
+        </item><item>
+            <title>Madmortem</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Madmortem</link>
+            <description>Madmortem - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM25</guid>
+        </item><item>
+            <title>Mal&#039;Ganis</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Mal&#039;Ganis</link>
+            <description>Mal&#039;Ganis - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM44</guid>
+        </item><item>
+            <title>Malfurion</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Malfurion</link>
+            <description>Malfurion - Realm Up - Lang de - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM26</guid>
+        </item><item>
+            <title>Malygos</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Malygos</link>
+            <description>Malygos - Realm Up - Lang de - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM19</guid>
+        </item><item>
+            <title>Mannoroth</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Mannoroth</link>
+            <description>Mannoroth - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM45</guid>
+        </item><item>
+            <title>Mug&#039;thol</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Mug&#039;thol</link>
+            <description>Mug&#039;thol - Realm Up - Lang de - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM26</guid>
+        </item><item>
+            <title>Nathrezim</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Nathrezim</link>
+            <description>Nathrezim - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM48</guid>
+        </item><item>
+            <title>Nazjatar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Nazjatar</link>
+            <description>Nazjatar - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM26</guid>
+        </item><item>
+            <title>Nefarian</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Nefarian</link>
+            <description>Nefarian - Realm Up - Lang de - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM30</guid>
+        </item><item>
+            <title>Nera&#039;thor</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Nera&#039;thor</link>
+            <description>Nera&#039;thor - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM12</guid>
+        </item><item>
+            <title>Nethersturm</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Nethersturm</link>
+            <description>Nethersturm - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM25</guid>
+        </item><item>
+            <title>Norgannon</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Norgannon</link>
+            <description>Norgannon - Realm Up - Lang de - Type PvE - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM35</guid>
+        </item><item>
+            <title>Nozdormu</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Nozdormu</link>
+            <description>Nozdormu - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM28</guid>
+        </item><item>
+            <title>Onyxia</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Onyxia</link>
+            <description>Onyxia - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM11</guid>
+        </item><item>
+            <title>Perenolde</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Perenolde</link>
+            <description>Perenolde - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM29</guid>
+        </item><item>
+            <title>Proudmoore</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Proudmoore</link>
+            <description>Proudmoore - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM47</guid>
+        </item><item>
+            <title>Rajaxx</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Rajaxx</link>
+            <description>Rajaxx - Realm Up - Lang de - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM29</guid>
+        </item><item>
+            <title>Rexxar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Rexxar</link>
+            <description>Rexxar - Realm Up - Lang de - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM20</guid>
+        </item><item>
+            <title>Sen&#039;jin</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Sen&#039;jin</link>
+            <description>Sen&#039;jin - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM03</guid>
+        </item><item>
+            <title>Shattrath</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Shattrath</link>
+            <description>Shattrath - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM26</guid>
+        </item><item>
+            <title>Taerar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Taerar</link>
+            <description>Taerar - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM27</guid>
+        </item><item>
+            <title>Teldrassil</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Teldrassil</link>
+            <description>Teldrassil - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM34</guid>
+        </item><item>
+            <title>Terrordar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Terrordar</link>
+            <description>Terrordar - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM16</guid>
+        </item><item>
+            <title>Theradras</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Theradras</link>
+            <description>Theradras - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM06</guid>
+        </item><item>
+            <title>Thrall</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Thrall</link>
+            <description>Thrall - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM28</guid>
+        </item><item>
+            <title>Tichondrius</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Tichondrius</link>
+            <description>Tichondrius - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM27</guid>
+        </item><item>
+            <title>Tirion</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Tirion</link>
+            <description>Tirion - Realm Up - Lang de - Type PvE - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM35</guid>
+        </item><item>
+            <title>Todeswache</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Todeswache</link>
+            <description>Todeswache - Realm Up - Lang de - Type RP-PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM32</guid>
+        </item><item>
+            <title>Un&#039;Goro</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Un&#039;Goro</link>
+            <description>Un&#039;Goro - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM27</guid>
+        </item><item>
+            <title>Vek&#039;lor</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Vek&#039;lor</link>
+            <description>Vek&#039;lor - Realm Up - Lang de - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM25</guid>
+        </item><item>
+            <title>Wrathbringer</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Wrathbringer</link>
+            <description>Wrathbringer - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM10</guid>
+        </item><item>
+            <title>Ysera</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Ysera</link>
+            <description>Ysera - Realm Up - Lang de - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU4-REALM18</guid>
+        </item><item>
+            <title>Zirkel des Cenarius</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Zirkel des Cenarius</link>
+            <description>Zirkel des Cenarius - Realm Up - Lang de - Type RP-PvE - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">RP-PvE</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM46</guid>
+        </item><item>
+            <title>Zuluhed</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Zuluhed</link>
+            <description>Zuluhed - Realm Up - Lang de - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">de</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU2-REALM27</guid>
+        </item><item>
+            <title>Arak-arahm</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Arak-arahm</link>
+            <description>Arak-arahm - Realm Up - Lang fr - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM39</guid>
+        </item><item>
+            <title>Arathi</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Arathi</link>
+            <description>Arathi - Realm Up - Lang fr - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM41</guid>
+        </item><item>
+            <title>Archimonde</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Archimonde</link>
+            <description>Archimonde - Realm Up - Lang fr - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM40</guid>
+        </item><item>
+            <title>Chants éternels</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Chants éternels</link>
+            <description>Chants éternels - Realm Up - Lang fr - Type PvE - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM38</guid>
+        </item><item>
+            <title>Cho&#039;gall</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Cho&#039;gall</link>
+            <description>Cho&#039;gall - Realm Up - Lang fr - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM46</guid>
+        </item><item>
+            <title>Confrérie du Thorium</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Confrérie du Thorium</link>
+            <description>Confrérie du Thorium - Realm Up - Lang fr - Type RP-PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">RP-PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM42</guid>
+        </item><item>
+            <title>Conseil des Ombres</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Conseil des Ombres</link>
+            <description>Conseil des Ombres - Realm Up - Lang fr - Type RP-PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">RP-PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM45</guid>
+        </item><item>
+            <title>Culte de la Rive noire</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Culte de la Rive noire</link>
+            <description>Culte de la Rive noire - Realm Up - Lang fr - Type RP-PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">RP-PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM44</guid>
+        </item><item>
+            <title>Dalaran</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Dalaran</link>
+            <description>Dalaran - Realm Up - Lang fr - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM39</guid>
+        </item><item>
+            <title>Drek&#039;Thar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Drek&#039;Thar</link>
+            <description>Drek&#039;Thar - Realm Up - Lang fr - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM42</guid>
+        </item><item>
+            <title>Eitrigg</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Eitrigg</link>
+            <description>Eitrigg - Realm Up - Lang fr - Type PvE - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM44</guid>
+        </item><item>
+            <title>Eldre&#039;Thalas</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Eldre&#039;Thalas</link>
+            <description>Eldre&#039;Thalas - Realm Up - Lang fr - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM43</guid>
+        </item><item>
+            <title>Elune</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Elune</link>
+            <description>Elune - Realm Up - Lang fr - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM41</guid>
+        </item><item>
+            <title>Garona</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Garona</link>
+            <description>Garona - Realm Up - Lang fr - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM37</guid>
+        </item><item>
+            <title>Hyjal</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Hyjal</link>
+            <description>Hyjal - Realm Up - Lang fr - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM43</guid>
+        </item><item>
+            <title>Illidan</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Illidan</link>
+            <description>Illidan - Realm Up - Lang fr - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM42</guid>
+        </item><item>
+            <title>Kael&#039;thas</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Kael&#039;thas</link>
+            <description>Kael&#039;thas - Realm Up - Lang fr - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM44</guid>
+        </item><item>
+            <title>Khaz Modan</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Khaz Modan</link>
+            <description>Khaz Modan - Realm Up - Lang fr - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM41</guid>
+        </item><item>
+            <title>Kirin Tor</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Kirin Tor</link>
+            <description>Kirin Tor - Realm Up - Lang fr - Type RP-PvE - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">RP-PvE</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM38</guid>
+        </item><item>
+            <title>Krasus</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Krasus</link>
+            <description>Krasus - Realm Up - Lang fr - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM39</guid>
+        </item><item>
+            <title>La Croisade écarlate</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#La Croisade écarlate</link>
+            <description>La Croisade écarlate - Realm Up - Lang fr - Type RP-PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">RP-PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM41</guid>
+        </item><item>
+            <title>Les Clairvoyants</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Les Clairvoyants</link>
+            <description>Les Clairvoyants - Realm Up - Lang fr - Type RP-PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">RP-PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM44</guid>
+        </item><item>
+            <title>Les Sentinelles</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Les Sentinelles</link>
+            <description>Les Sentinelles - Realm Up - Lang fr - Type RP-PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">RP-PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM48</guid>
+        </item><item>
+            <title>Marécage de Zangar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Marécage de Zangar</link>
+            <description>Marécage de Zangar - Realm Up - Lang fr - Type PvE - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM39</guid>
+        </item><item>
+            <title>Medivh</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Medivh</link>
+            <description>Medivh - Realm Up - Lang fr - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM40</guid>
+        </item><item>
+            <title>Naxxramas</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Naxxramas</link>
+            <description>Naxxramas - Realm Up - Lang fr - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM42</guid>
+        </item><item>
+            <title>Ner&#039;zhul</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Ner&#039;zhul</link>
+            <description>Ner&#039;zhul - Realm Up - Lang fr - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM45</guid>
+        </item><item>
+            <title>Rashgarroth</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Rashgarroth</link>
+            <description>Rashgarroth - Realm Up - Lang fr - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM43</guid>
+        </item><item>
+            <title>Sargeras</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Sargeras</link>
+            <description>Sargeras - Realm Up - Lang fr - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM47</guid>
+        </item><item>
+            <title>Sinstralis</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Sinstralis</link>
+            <description>Sinstralis - Realm Up - Lang fr - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU1-REALM34</guid>
+        </item><item>
+            <title>Suramar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Suramar</link>
+            <description>Suramar - Realm Up - Lang fr - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM38</guid>
+        </item><item>
+            <title>Temple noir</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Temple noir</link>
+            <description>Temple noir - Realm Up - Lang fr - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM40</guid>
+        </item><item>
+            <title>Throk&#039;Feroth</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Throk&#039;Feroth</link>
+            <description>Throk&#039;Feroth - Realm Up - Lang fr - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM44</guid>
+        </item><item>
+            <title>Uldaman</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Uldaman</link>
+            <description>Uldaman - Realm Up - Lang fr - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM43</guid>
+        </item><item>
+            <title>Varimathras</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Varimathras</link>
+            <description>Varimathras - Realm Up - Lang fr - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU3-REALM46</guid>
+        </item><item>
+            <title>Vol&#039;jin</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Vol&#039;jin</link>
+            <description>Vol&#039;jin - Realm Up - Lang fr - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM38</guid>
+        </item><item>
+            <title>Ysondre</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Ysondre</link>
+            <description>Ysondre - Realm Up - Lang fr - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">fr</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU5-REALM42</guid>
+        </item><item>
+            <title>C&#039;Thun</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#C&#039;Thun</link>
+            <description>C&#039;Thun - Realm Up - Lang es - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">es</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM04</guid>
+        </item><item>
+            <title>Dun Modr</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Dun Modr</link>
+            <description>Dun Modr - Realm Up - Lang es - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">es</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM01</guid>
+        </item><item>
+            <title>Exodar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Exodar</link>
+            <description>Exodar - Realm Up - Lang es - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">es</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM08</guid>
+        </item><item>
+            <title>Los Errantes</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Los Errantes</link>
+            <description>Los Errantes - Realm Up - Lang es - Type RP-PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">es</category>
+            <category domain="type">RP-PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM10</guid>
+        </item><item>
+            <title>Minahonda</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Minahonda</link>
+            <description>Minahonda - Realm Up - Lang es - Type PvE - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">es</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM09</guid>
+        </item><item>
+            <title>Shen&#039;dralar</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Shen&#039;dralar</link>
+            <description>Shen&#039;dralar - Realm Up - Lang es - Type RP-PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">es</category>
+            <category domain="type">RP-PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM06</guid>
+        </item><item>
+            <title>Tyrande</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Tyrande</link>
+            <description>Tyrande - Realm Up - Lang es - Type PvE - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">es</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM07</guid>
+        </item><item>
+            <title>Uldum</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Uldum</link>
+            <description>Uldum - Realm Up - Lang es - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">es</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM03</guid>
+        </item><item>
+            <title>Zul&#039;Jin</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Zul&#039;Jin</link>
+            <description>Zul&#039;Jin - Realm Up - Lang es - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">es</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU6-REALM02</guid>
+        </item><item>
+            <title>Азурегос</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Азурегос</link>
+            <description>Азурегос - Realm Up - Lang ru - Type PvE</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">ru</category>
+            <category domain="type">PvE</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM04</guid>
+        </item><item>
+            <title>Вечная Песня</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Вечная Песня</link>
+            <description>Вечная Песня - Realm Up - Lang ru - Type PvE - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">ru</category>
+            <category domain="type">PvE</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM07</guid>
+        </item><item>
+            <title>Гордунни</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Гордунни</link>
+            <description>Гордунни - Realm Up - Lang ru - Type PvP</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">ru</category>
+            <category domain="type">PvP</category>
+            
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM16</guid>
+        </item><item>
+            <title>Пиратская бухта</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Пиратская бухта</link>
+            <description>Пиратская бухта - Realm Up - Lang ru - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">ru</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM06</guid>
+        </item><item>
+            <title>Термоштепсель</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Термоштепсель</link>
+            <description>Термоштепсель - Realm Up - Lang ru - Type PvP - Recommended</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">ru</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Recommended</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM08</guid>
+        </item><item>
+            <title>Ясеневый лес</title>
+            <link>http://www.wow-europe.com/realmstatus/index.html#Ясеневый лес</link>
+            <description>Ясеневый лес - Realm Up - Lang ru - Type PvP - Full</description>
+            <category domain="status">Realm Up</category>
+            <category domain="language">ru</category>
+            <category domain="type">PvP</category>
+            <category domain="population">Full</category>
+            <category domain="queue">false</category>
+            <guid isPermaLink='false'>EU7-REALM05</guid>
+        </item>
+    </channel>
+</rss>
