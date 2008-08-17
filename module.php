@@ -24,7 +24,7 @@ if ( !defined('EQDKP_INC') ){
 $portal_module['realmstatus'] = array(                     // the same name as the folder!
 			'name'			    => 'Realmstatus Module',             // The name to show
 			'path'			    => 'realmstatus',                    // Folder name again
-			'version'		    => '0.0.2',                          // Version
+			'version'		    => '0.0.1',                          // Version
 			'author'        	=> 'Aderyn',                         // Author
 			'contact'		    => 'Aderyn@gmx.net',                 // email adress
 			'description'   	=> 'Show Realmstatus',               // Detailed Description
@@ -57,23 +57,21 @@ $portal_settings['realmstatus'] = array(
       ),
 );
 if(extension_loaded('gd') && function_exists('gd_info')) {
-        $portal_settings['realmstatus']['pk_realmstatus_gd'] = array(
+	$portal_settings['realmstatus']['pk_realmstatus_gd'] = array(
           'name'      => 'rs_gd',
           'language'  => 'rs_gd',
           'property'  => 'hidden',
           'value'     => 'true',
           'text'      => 'GD LIB Version',
       );
-        $portal_settings['realmstatus']['pk_realmstatus_us']     = array(
+     $portal_settings['realmstatus']['pk_realmstatus_us']     = array(
           'name'      => 'rs_us',
           'language'  => 'rs_us',
           'property'  => 'checkbox',
           'size'      => false,
           'options'   => false,
         );
-
 }
-
 
 // The output function
 // the name MUST be FOLDERNAME_module, if not an error will occur
@@ -96,7 +94,7 @@ if(!function_exists(realmstatus_module))
       $realmnames[] = $conf_plus['pk_servername'];
     }
     
-    // output realms
+     // output realms
     $realmstatus = '';
     if (count($realmnames) > 0 && strlen($realmnames[0]))
     {
@@ -104,7 +102,6 @@ if(!function_exists(realmstatus_module))
         if ($conf_plus['rs_gd']) {
             $region = 'eu';
             if ($conf_plus['rs_us'] == true) $region = 'us';
-
             foreach ($realmnames as $realmname) 
              {
                 $realmname = trim($realmname);
@@ -126,7 +123,6 @@ if(!function_exists(realmstatus_module))
                               style="width: 88px; height: 105px; border: none;"/>
                            </td></tr>';
              }
-
        }
           $realmstatus .= '</table>';
     }
@@ -134,10 +130,9 @@ if(!function_exists(realmstatus_module))
     {
       $realmstatus .= '<div align="center">'.$plang['rs_no_realmname'].'</div>';
     }
-        
+
     // return the output for module manager
                 return $realmstatus;
   }
 }
 ?>
-    
