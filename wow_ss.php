@@ -20,6 +20,7 @@ function wow_ss_global() {
 	$wowss['update_timer']		= 10;					// Minutes between status update refresh
 	$wowss['data_path']			= './wowss';				// Path to your 'wowss' folder (you may need to prepend this with your root path, 'root/public_html' etc)
 	$wowss['image_type']		= 'png';				// (png | gif) image type output
+	$wowss['image_cache']		= '../../templates/cache' // EQDKP Cache Directory
 	
 /*
 ##		These are the default messages outputed by the text version of the script.
@@ -75,7 +76,10 @@ function wow_ss_global() {
 	
 	if(substr($wowss['data_path'],-1) != '/')
 		$wowss['data_path'] .= '/';
-	
+
+	if(substr($wowss['image_cache'],-1) != '/')
+		$wowss['image_cache'] .= '/';	
+		
 	return $wowss;
 
 }
@@ -100,7 +104,7 @@ function wow_ss($realm = 0,$display = 0, $region = 0, $update_timer = 0,$data_pa
 		$realm_status['language'] = 'us';
 	
 	## Verify data path
-	if(is_dir($wowss['data_path'])) {
+	if(is_dir($wowss['image_cache'])) {
 
 		if(!$wowss['xml_url'])
 			$wowss['xml_url'] = $wowss[strtolower($wowss['region']).'_xml'];
@@ -108,8 +112,8 @@ function wow_ss($realm = 0,$display = 0, $region = 0, $update_timer = 0,$data_pa
 		
 		## Check if we need to update XML cache
 		clearstatcache();
-		if(file_exists($wowss['data_path'].$xml_file)) {
-			if(time()-($wowss['update_timer']*60) > filemtime($wowss['data_path'].$xml_file))
+		if(file_exists($wowss['image_cache'].$xml_file)) {
+			if(time()-($wowss['update_timer']*60) > filemtime($wowss['image_cache'].$xml_file))
 				$update = true;
 		}
 		else
@@ -120,13 +124,13 @@ function wow_ss($realm = 0,$display = 0, $region = 0, $update_timer = 0,$data_pa
 			$data = @file_get_contents($wowss['xml_url']);
 			if(strlen($data) > 300) {
 				## Don't write data unless it is there
-				$handle = fopen($wowss['data_path'].$xml_file,"w");
+				$handle = fopen($wowss['image_cache'].$xml_file,"w");
 				fwrite($handle,$data);
 				fclose($handle);
 			} else
 				$realm_status['script_errors'][] = 'Unable to access remote XML file.';
 		}
-		$xml = @strtolower(@file_get_contents($wowss['data_path'].$xml_file));
+		$xml = @strtolower(@file_get_contents($wowss['image_cache'].$xml_file));
 		
 		## Parse XML
 		if($xml) {
@@ -175,8 +179,8 @@ function wow_ss($realm = 0,$display = 0, $region = 0, $update_timer = 0,$data_pa
 		
 		unset($update);
 		clearstatcache();
-		if(file_exists($wowss['data_path'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.'.$wowss['image_type'])) {
-			if(time()-($wowss['update_timer']*60) > filemtime($wowss['data_path'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.'.$wowss['image_type']))
+		if(file_exists($wowss['image_cache'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.'.$wowss['image_type'])) {
+			if(time()-($wowss['update_timer']*60) > filemtime($wowss['image_cache'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.'.$wowss['image_type']))
 				$update = true;
 		}
 		else
@@ -195,16 +199,16 @@ function wow_ss($realm = 0,$display = 0, $region = 0, $update_timer = 0,$data_pa
 			## Write headers and image if script is called from img tag
 			if($wowss['image_type'] == 'png') {
 				header("Content-type: image/png");
-				$image = imagecreatefrompng($wowss['data_path'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.'.$wowss['image_type']);
+				$image = imagecreatefrompng($wowss['image_cache'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.'.$wowss['image_type']);
 				imagepng($image);
 			}
 			elseif($wowss['image_type'] == 'gif') {
 				header("Content-type: image/gif");
-				$image = imagecreatefromgif($wowss['data_path'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.'.$wowss['image_type']);
+				$image = imagecreatefromgif($wowss['image_cache'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.'.$wowss['image_type']);
 				imagegif($image);
 			}
 		} else
-			echo '<img alt="WoW Server Status for '. $realm_status['realm'] .'" src="'. $wowss['data_path'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.'.$wowss['image_type'] .'" />';
+			echo '<img alt="WoW Server Status for '. $realm_status['realm'] .'" src="'. $wowss['image_cache'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.'.$wowss['image_type'] .'" />';
 	}
 	if($wowss['display'] == 'half') {
 		
@@ -214,16 +218,16 @@ function wow_ss($realm = 0,$display = 0, $region = 0, $update_timer = 0,$data_pa
 			## Write headers and image if script is called from img tag
 			if($wowss['image_type'] == 'png') {
 				header("Content-type: image/png");
-				$image = imagecreatefrompng($wowss['data_path'].$realm_status['status'].'.'.$wowss['image_type']);
+				$image = imagecreatefrompng($wowss['image_cache'].$realm_status['status'].'.'.$wowss['image_type']);
 				imagepng($image);
 			}
 			elseif($wowss['image_type'] == 'gif') {
 				header("Content-type: image/gif");
-				$image = imagecreatefromgif($wowss['data_path'].$realm_status['status'].'.'.$wowss['image_type']);
+				$image = imagecreatefromgif($wowss['image_cache'].$realm_status['status'].'.'.$wowss['image_type']);
 				imagegif($image);
 			}
 		} else
-			echo '<img alt="WoW Server Status for '. $realm_status['realm'] .'" src="'. $wowss['data_path'].$realm_status['status'].'.'.$wowss['image_type'] .'" />';
+			echo '<img alt="WoW Server Status for '. $realm_status['realm'] .'" src="'. $wowss['image_cache'].$realm_status['status'].'.'.$wowss['image_type'] .'" />';
 	}
 	if($wowss['display'] == 'text') {
 		
@@ -341,9 +345,9 @@ function wow_ss_image ($realm_status,$wowss) {
 	}	
 	
 	if($wowss['image_type'] == 'png')
-		imagepng($back,$wowss['data_path'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.png');
+		imagepng($back,$wowss['image_cache'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.png');
 	if($wowss['image_type'] == 'gif')
-		imagegif($back,$wowss['data_path'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.gif');
+		imagegif($back,$wowss['image_cache'].strtolower(wow_ss_sfn($realm_status['realm'].' '.$wowss['region'])).'.gif');
 	imagedestroy($back);
 }
 
