@@ -20,7 +20,7 @@ function wow_ss_global() {
 	$wowss['update_timer']		= 10;					// Minutes between status update refresh
 	$wowss['data_path']			= './wowss';				// Path to your 'wowss' folder (you may need to prepend this with your root path, 'root/public_html' etc)
 	$wowss['image_type']		= 'png';				// (png | gif) image type output
-	$wowss['image_cache']		= '../../templates/cache' // EQDKP Cache Directory
+	$wowss['image_cache']		= '../../templates/cache'; // EQDKP Cache Directory
 	
 /*
 ##		These are the default messages outputed by the text version of the script.
