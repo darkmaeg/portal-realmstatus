@@ -60,8 +60,7 @@ if(extension_loaded('gd') && function_exists('gd_info')) {
 	$portal_settings['realmstatus']['pk_realmstatus_gd'] = array(
           'name'      => 'rs_gd',
           'language'  => 'rs_gd',
-          'property'  => 'hidden',
-          'value'     => 'true',
+          'property'  => 'checkbox',
           'text'      => 'GD LIB Version',
       );
      $portal_settings['realmstatus']['pk_realmstatus_us']     = array(
@@ -100,8 +99,7 @@ if(!function_exists(realmstatus_module))
     {
       $realmstatus .= '<table width="100%" border="0" cellspacing="1" cellpadding="2" class="noborder">';
         if ($conf_plus['rs_gd']) {
-            $region = 'eu';
-            if ($conf_plus['rs_us'] == true) $region = 'us';
+            $region = ($conf_plus['rs_us']) ? 'us' : 'eu';
             foreach ($realmnames as $realmname) 
              {
                 $realmname = trim($realmname);
