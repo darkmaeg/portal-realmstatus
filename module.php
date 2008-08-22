@@ -104,7 +104,7 @@ if(!function_exists(realmstatus_module))
              {
                 $realmname = trim($realmname);
                 $realmstatus .= '<tr><td align="center">';
-                $realmstatus .= '<img alt="WoW Server Status" src="'.$eqdkp_root_path.'portal/realmstatus/wow_ss.php?realm='.$realmname.'&region='.$region.'"/>';
+                $realmstatus .= '<img alt="WoW Server Status" src="'.$eqdkp_root_path.'portal/realmstatus/wow_ss.php?realm='.$realmname.'&amp;region='.$region.'"/>';
                 $realmstatus .=  '</td></tr>';
              }  
         }
