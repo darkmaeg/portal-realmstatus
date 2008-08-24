@@ -48,13 +48,17 @@ There could be unlimited amount of settings
 Settings page is created dynamically
 */
 $portal_settings['realmstatus'] = array(
-  'pk_realmstatus_realm'    => array(
+	'pk_realmstatus_realm'	=> array(
         'name'      => 'rs_realm',
         'language'  => 'rs_realm',
         'property'  => 'text',
         'size'      => '40',
-        'help'      => 'rs_realm_help',
-      ),
+	),
+	'pk_realmstatus_us'	=> array(
+          'name'      => 'rs_us',
+          'language'  => 'rs_us',
+          'property'  => 'checkbox',
+	),
 );
 if(extension_loaded('gd') && function_exists('gd_info')) {
 	$portal_settings['realmstatus']['pk_realmstatus_gd'] = array(
@@ -63,13 +67,6 @@ if(extension_loaded('gd') && function_exists('gd_info')) {
           'property'  => 'checkbox',
           'text'      => 'GD LIB Version',
       );
-     $portal_settings['realmstatus']['pk_realmstatus_us']     = array(
-          'name'      => 'rs_us',
-          'language'  => 'rs_us',
-          'property'  => 'checkbox',
-          'size'      => false,
-          'options'   => false,
-        );
 }
 
 // The output function
@@ -111,14 +108,14 @@ if(!function_exists(realmstatus_module))
         else {
             foreach ($realmnames as $realmname)
              {
-              // trim name
-                $realmname      = trim($realmname);
-                $escaped_realm  = str_replace("'", "", strtolower($realmname));
-                $realmstatus .= '<tr><td align="center">
-                           <img src="http://wow.gamer-scene.com/serverstatus/img/'.$escaped_realm.'_big.png"
+              	$region			= ($conf_plus['rs_us']) ? '1' : '2';
+                $realmname		= trim($realmname);
+                $replace		= array(" " => "_", "'" => "");
+                $scored_realm		= strtolower(strtr($realmname, $replace));
+                $realmstatus		.= '<tr><td align="center">
+                           <img src="http://www.wowrealmstatus.net/status.php?s='.$scored_realm.'&r='.$region.'"
                               alt="WoW-Serverstatus: '.$realmname.'"
-                              title="'.$realmname.'"
-                              style="width: 88px; height: 105px; border: none;"/>
+                              title="'.$realmname.'"/>
                            </td></tr>';
              }
        }
