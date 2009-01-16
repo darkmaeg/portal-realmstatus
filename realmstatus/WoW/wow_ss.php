@@ -2,7 +2,7 @@
 
 ##
 ## WoW Server Status
-## Version 4.1	
+## Version 4.1	Edit
 ## Copyright 2008 Nick Schaffner
 ## http://53x11.com
 ##
