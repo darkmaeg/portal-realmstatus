@@ -8,7 +8,7 @@
  * Date:        $Date: $
  * -----------------------------------------------------------------------
  * @author      $Author:  $
- * @copyright   (c) 2008 by Aderyn
+ * @copyright   (c) 2008 by Aderyn / Ghoschdi
  * @link        http://eqdkp-plus.com
  * @package     eqdkp-plus
  * @version     $Rev:  $
