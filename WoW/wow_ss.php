@@ -149,7 +149,7 @@ function wow_ss($realm = 0,$display = 0, $region = 0, $update_timer = 0,$data_pa
 			}
 			## Parse EU XML
 			if(strtolower($wowss['region']) == 'eu') {
-				preg_match('/<title>\s*'. strtolower($wowss['realm']). '\s*<\/title>.*<\/item>/msU',$xml,$match);
+				preg_match('/<title>\s*'. strtolower(utf8_encode($wowss['realm'])). '\s*<\/title>.*<\/item>/msU',$xml,$match);
 				preg_match('/domain="population">(.*)</',$match[0],$status_array);
 				if(!$status_array[1])
 					$realm_status['population'] = 'medium';
