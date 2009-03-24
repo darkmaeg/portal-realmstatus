@@ -26,7 +26,7 @@ if (!defined('EQDKP_INC'))
 $portal_module['realmstatus'] = array(                     // the same name as the folder!
       'name'          => 'Realmstatus Module',             // The name to show
       'path'          => 'realmstatus',                    // Folder name again
-      'version'       => '1.0.0',                          // Version
+      'version'       => '1.0.1',                          // Version
       'author'        => 'Aderyn',                         // Author
       'contact'       => 'Aderyn@gmx.net',                 // email adress
       'description'   => 'Show Realmstatus',               // Detailed Description
