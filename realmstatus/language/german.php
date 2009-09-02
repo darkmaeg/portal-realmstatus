@@ -27,15 +27,16 @@ $plang = array_merge($plang, array(
 
   //  Settings
   'rs_realm'              => 'Liste von Servern (Komma getrennt)',
+  'rs_realm_help'         => 'Bei WoW Servern die aus mehreren Wörtern bestehen, müssen die Leerzeichen durch einen Unterstrich ersetzt werden. z.b. Die_Todeskrallen',
   'rs_us'                 => 'Handelt es sich um einen US Server?',
+  'rs_us_help'            => 'Diese Einstellung hat nur Auswirkungen wenn als Spiel WoW eingestellt ist.',
   'rs_gd'                 => 'GD Lib erkannt. GD Lib Version verwenden?',
+  'rs_gd_help'            => 'Diese Einstellung hat nur Auswirkungen wenn als Spiel WoW eingestellt ist.',
 
   // Portal Modul
   'rs_no_realmname'       => 'Kein Server angegeben',
   'rs_game_not_supported' => 'Der Serverstatus wird für das Spiel nicht unterstützt',
-
-  //Help
-  'rs_realm_help'         => 'Bei WoW Servern die aus mehreren Wörtern bestehen, müssen die Leerzeichen durch einen Unterstrich ersetzt werden. z.b. Die_Todeskrallen ',
+  'rs_realm_status_error' => "Fehler beim Ermitteln des Serverstatus für %1\$s",
 ));
 
 ?>
