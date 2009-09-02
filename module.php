@@ -26,7 +26,7 @@ if (!defined('EQDKP_INC'))
 $portal_module['realmstatus'] = array(                     // the same name as the folder!
       'name'          => 'Realmstatus Module',             // The name to show
       'path'          => 'realmstatus',                    // Folder name again
-      'version'       => '1.0.1',                          // Version
+      'version'       => '1.0.2',                          // Version
       'author'        => 'Aderyn',                         // Author
       'contact'       => 'Aderyn@gmx.net',                 // email adress
       'description'   => 'Show Realmstatus',               // Detailed Description
@@ -54,11 +54,13 @@ $portal_settings['realmstatus'] = array(
         'language'  => 'rs_realm',
         'property'  => 'text',
         'size'      => '40',
+        'help'      => 'rs_realm_help',
   ),
   'pk_realmstatus_us'     => array(
         'name'      => 'rs_us',
         'language'  => 'rs_us',
         'property'  => 'checkbox',
+        'help'      => 'rs_us_help',
   ),
 );
 
@@ -69,6 +71,7 @@ if(extension_loaded('gd') && function_exists('gd_info'))
         'language'  => 'rs_gd',
         'property'  => 'checkbox',
         'text'      => 'GD LIB Version',
+        'help'      => 'rs_gd_help',
   );
 }
 

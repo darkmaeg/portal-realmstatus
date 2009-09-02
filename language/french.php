@@ -28,15 +28,16 @@ $plang = array_merge($plang, array(
 
   //  Settings
   'rs_realm'              => 'Liste des royaumes (séparés par virgule)',
+  'rs_realm_help'         => 'Remplacez les espaces avec _ pour les serveurs en plusieurs mots, come Le_conseil_des_ombres.',
   'rs_us'                 => 'Serveur US ?',
+  'rs_us_help'            => 'This setting has only effects if WoW is set as game.',
   'rs_gd'                 => 'Lib GD trouvée. Voulez-vous l\'utliser ?',
+  'rs_gd_help'            => 'This setting has only effects if WoW is set as game.',
 
   // Portal Modul
   'rs_no_realmname'       => 'Pas de royaume spécifié',
   'rs_game_not_supported' => 'Ce module ne fonctionne pas pour le jeu indiqué',
-
-  // Help
-  'rs_realm_help'         => 'Remplacez les espaces avec _ pour les serveurs en plusieurs mots, come Le_conseil_des_ombres.',
+  'rs_realm_status_error' => "Errors occured while determing realmstatus for %1\$s",
 ));
 
 ?>

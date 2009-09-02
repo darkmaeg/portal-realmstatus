@@ -28,15 +28,16 @@ $plang = array_merge($plang, array(
 
   //  Settings
   'rs_realm'              => 'List of Realms (comma separated)',
+  'rs_realm_help'         => 'Replace whitespace with _ on servers with 2 words. Like die_todeskrallen.',
   'rs_us'                 => 'Is it an US server?',
+  'rs_us_help'            => 'This setting has only effects if WoW is set as game.',
   'rs_gd'                 => 'GD Lib found. Do you want to use it? ',
+  'rs_gd_help'            => 'This setting has only effects if WoW is set as game.',
 
   // Portal Modul
   'rs_no_realmname'       => 'No realm specified',
   'rs_game_not_supported' => 'Realmstatus is not supported for the current game',
-
-  // Help
-  'rs_realm_help'         => 'Replace whitespace with _ on servers with 2 words. Like die_todeskrallen.',
+  'rs_realm_status_error' => "Errors occured while determing realmstatus for %1\$s",
 ));
 
 ?>
