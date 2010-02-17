@@ -19,7 +19,7 @@
 
 // get current status from URL
 $lotro_url = 'http://www.lotro-europe.com/server.php?search=yes&keyword=';
-$url_data = @file_get_contents($lotro_url);
+$url_data = $urlreader->GetURL($lotro_url);
 
 $image_path = $eqdkp_root_path.'portal/realmstatus/LOTRO/images/';
 
@@ -87,7 +87,7 @@ if (strlen($url_data) > 0)
 }
 else
 {
-  $realmstatus .= '<div class="server_down">'.$plang['rs_no_realmname'].'</div>';
+  $realmstatus .= '<div class="server_down">'.$plang['rs_realm_not_found'].'</div>';
 }
 
 // footer for table

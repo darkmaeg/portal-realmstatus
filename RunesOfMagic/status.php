@@ -16,8 +16,6 @@
  * $Id: $
  */
 
-global $urlreader;
-
 
 // basic URL for the status request
 $rom_base_status_url = 'http://status.blackout-gaming.net/status.php?';

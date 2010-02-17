@@ -26,7 +26,7 @@ if (!defined('EQDKP_INC'))
 $portal_module['realmstatus'] = array(                     // the same name as the folder!
       'name'          => 'Realmstatus Module',             // The name to show
       'path'          => 'realmstatus',                    // Folder name again
-      'version'       => '1.0.2',                          // Version
+      'version'       => '1.0.3',                          // Version
       'author'        => 'Aderyn',                         // Author
       'contact'       => 'Aderyn@gmx.net',                 // email adress
       'description'   => 'Show Realmstatus',               // Detailed Description
@@ -80,7 +80,7 @@ if(!function_exists(realmstatus_module))
 {
   function realmstatus_module()
   {
-    global $plang, $conf_plus, $eqdkp_root_path, $eqdkp;
+    global $plang, $conf_plus, $eqdkp_root_path, $eqdkp, $urlreader;
 
     $realmnames = array();
     // list of realms by portal modul config?

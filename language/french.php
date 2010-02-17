@@ -36,6 +36,7 @@ $plang = array_merge($plang, array(
 
   // Portal Modul
   'rs_no_realmname'       => 'Pas de royaume spécifié',
+  'rs_realm_not_found'    => 'Realm not found',
   'rs_game_not_supported' => 'Ce module ne fonctionne pas pour le jeu indiqué',
   'rs_realm_status_error' => "Errors occured while determing realmstatus for %1\$s",
 ));

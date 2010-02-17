@@ -35,6 +35,7 @@ $plang = array_merge($plang, array(
 
   // Portal Modul
   'rs_no_realmname'       => 'Kein Server angegeben',
+  'rs_realm_not_found'    => 'Server nicht gefunden',
   'rs_game_not_supported' => 'Der Serverstatus wird für das Spiel nicht unterstützt',
   'rs_realm_status_error' => "Fehler beim Ermitteln des Serverstatus für %1\$s",
 ));
