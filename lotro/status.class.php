@@ -54,7 +54,7 @@ if (!class_exists('lotro_realmstatus'))
      */
 
     /* URL to load realmstatus from */
-    private $lotro_url = 'http://status.warriorsofnargathrond.com/activity/external.php?status=';
+    private $lotro_url = 'http://lux-hdro.de/serverstatus-rss.php?';
 
     /* cache time in seconds default 10 minutes = 600 seconds */
     private $cachetime = 600;
@@ -203,9 +203,9 @@ if (!class_exists('lotro_realmstatus'))
     private function loadStatus($servername)
     {
       $this->puf->checkURL_first = true;
-      $xml_string = $this->puf->fetch($this->lotro_url.urlencode($servername));
+      $xml_string = $this->puf->fetch($this->lotro_url.urlencode(utf8_strtolower($servername)).'=1');
       if ($xml_string)
-        return $this->parseXML($xml_string);
+        return $this->parseXML($xml_string, $servername);
 
       return 'unknown';
     }
@@ -218,27 +218,21 @@ if (!class_exists('lotro_realmstatus'))
      *
      * @return string ('up', 'down', 'unknown')
      */
-    private function parseXML($xml_string)
+    private function parseXML($xml_string, $servername)
     {
       if (!empty($xml_string))
       {
-        // parse xml
+        // parse xml		
         $xml = simplexml_load_string($xml_string);
-        if ($xml !== false && $xml->server && $xml->server->status)
-        {
-          switch (intval($xml->server->status))
-          {
-            case 0: // Server is Offline (not running at all).
-              return 'down';
-            case 1: // Server is Closed (closed to the majority of the population - will possibly allow Turbine staff or beta testers)
-              return 'up';
-            case 2: // Server is Online (running and available to all players)
-              return 'up';
-            case 3: // Server is Full (server is running but cannot accept any new players)
-              return 'up';
-            default:
-              return 'unknown';
-          }
+        if ($xml !== false && $xml->channel->item)
+        {		
+			foreach($xml->channel->item as $item){
+				$strDesc = $item->description;
+				if (strpos($strDesc, $servername) === 0){
+					$string = substr($strDesc, strlen($servername)+2);
+					if (strpos($string, 'offen') === 0) return "up";
+				}
+			}
         }
       }
 
