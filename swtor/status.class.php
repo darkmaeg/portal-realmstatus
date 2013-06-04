@@ -86,7 +86,18 @@ if (!class_exists('swtor_realmstatus'))
      */
     public function checkServer($servername)
     {
-      return 'unknown';
+      // get server data
+	  $servername = trim($servername);
+	  $servername = html_entity_decode($servername, ENT_QUOTES);
+	  $serverdata = $this->getServerData($servername);
+
+	  // get status
+	  switch (strtolower($serverdata['status']))
+	  {
+		  case 'up':      return 'up';  break;
+		  case 'down':    return 'down'; break;
+		  default:        $status = 'unknown'; break;
+	  }
     }
 
     /**
