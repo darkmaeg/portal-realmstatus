@@ -96,7 +96,10 @@ if (!class_exists('eq2_realmstatus'))
           switch ($this->servers[$servername]['status'])
           {
             case 'down':    return 'down';
-            case 'locked':  return 'up';
+            case 'locked':  return 'locked';
+			case 'up': return 'up';
+			case 'missing' : return 'missing';
+			case 'unknown' : return 'unknown';
             default:        return 'up';
           }
         }
@@ -126,7 +129,7 @@ if (!class_exists('eq2_realmstatus'))
           // get status
           $servername = trim($servername);
           $status = $this->checkServer($servername);
-
+			
           // output
           $output .= '<div class="tr">';
 
@@ -139,8 +142,17 @@ if (!class_exists('eq2_realmstatus'))
             case 'down':
               $output .= '<div class="td"><img src="'.$this->image_path.'down.png" alt="Offline" title="'.$servername.'" /></div>';
               break;
+			case 'locked':
+              $output .= '<div class="td"><img src="'.$this->image_path.'locked.png" alt="Offline" title="'.$servername.'" /></div>';
+              break;
+			case 'missing':
+              $output .= '<div class="td"><img src="'.$this->image_path.'missing.png" alt="Offline" title="'.$servername.'" /></div>';
+              break;
+			case 'unknown':
+              $output .= '<div class="td"><img src="'.$this->image_path.'unknown.png" alt="Offline" title="'.$servername.'" /></div>';
+              break;  
             default:
-              $output .= '<div class="td"><img src="'.$this->image_path.'down.png" alt="'.$this->user->lang('rs_unknown').'" title="'.$servername.' ('.$this->user->lang('rs_unknown').')" /></div>';
+              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="'.$this->user->lang('rs_unknown').'" title="'.$servername.' ('.$this->user->lang('rs_unknown').')" /></div>';
               break;
           }
 

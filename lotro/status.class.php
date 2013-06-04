@@ -231,6 +231,7 @@ if (!class_exists('lotro_realmstatus'))
 				if (strpos($strDesc, $servername) === 0){
 					$string = substr($strDesc, strlen($servername)+2);
 					if (strpos($string, 'offen') === 0) return "up";
+					if (strpos($string, 'zu') === 0) return "down";
 				}
 			}
         }
