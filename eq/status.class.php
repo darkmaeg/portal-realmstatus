@@ -222,6 +222,4 @@ if (!class_exists('eq_realmstatus'))
     }
   }
 }
-
-if(version_compare(PHP_VERSION, '5.3.0', '<')) registry::add_const('short_eq_realmstatus', eq_realmstatus::__shortcuts());
 ?>

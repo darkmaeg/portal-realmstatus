@@ -294,6 +294,4 @@ if (!class_exists('rom_realmstatus'))
     }
   }
 }
-
-if(version_compare(PHP_VERSION, '5.3.0', '<')) registry::add_const('short_rom_realmstatus', rom_realmstatus::__shortcuts());
 ?>

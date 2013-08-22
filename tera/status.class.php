@@ -307,6 +307,4 @@ if (!class_exists('tera_realmstatus'))
     }
   }
 }
-
-if(version_compare(PHP_VERSION, '5.3.0', '<')) registry::add_const('short_tera_realmstatus', tera_realmstatus::__shortcuts());
 ?>

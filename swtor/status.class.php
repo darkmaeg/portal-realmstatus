@@ -350,6 +350,4 @@ if (!class_exists('swtor_realmstatus'))
     }
   }
 }
-
-if(version_compare(PHP_VERSION, '5.3.0', '<')) registry::add_const('short_swtor_realmstatus', swtor_realmstatus::__shortcuts());
 ?>

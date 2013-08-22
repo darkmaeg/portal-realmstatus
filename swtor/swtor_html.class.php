@@ -227,5 +227,4 @@ if (!class_exists('swtor_html_server'))
     }
   }
 }
-
 ?>

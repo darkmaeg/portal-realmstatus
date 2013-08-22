@@ -189,7 +189,7 @@ if (!class_exists('mmo_realmstatus'))
     {
       // build JS for Async load
       $jscode = '$.ajax({
-                    url: "'.$this->root_path.'portal/realmstatus/realmstatus.php'.$this->SID.'",
+                    url: "'.$this->server_path.'portal/realmstatus/realmstatus.php'.$this->SID.'",
                     data: {
                       game: "'.$this->game_name.'"
                     },
@@ -207,6 +207,4 @@ if (!class_exists('mmo_realmstatus'))
     }
   }
 }
-
-if(version_compare(PHP_VERSION, '5.3.0', '<')) registry::add_const('short_mmo_realmstatus', mmo_realmstatus::$shortcuts);
 ?>

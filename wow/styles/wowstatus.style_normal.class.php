@@ -151,5 +151,4 @@ if (!class_exists("wowstatus_style_normal"))
   }
 }
 
-if(version_compare(PHP_VERSION, '5.3.0', '<')) registry::add_const('short_wowstatus_style_normal', wowstatus_style_normal::__shortcuts());
 ?>
