@@ -76,7 +76,7 @@ if (!class_exists('mmo_realmstatus'))
 
         $output = '<div id="realmstatus_output_'.$this->game_name.'">
                      <div class="center" style="margin: 4px;">
-                       <i class="icon-refresh icon-spin icon-large"></i>&nbsp;'.$this->user->lang('rs_loading').'
+                       <i class="fa fa-refresh fa-spin fa-lg"></i>&nbsp;'.$this->user->lang('rs_loading').'
                      </div>
                    </div>';
       }
