@@ -41,6 +41,7 @@ class realmstatus_portal extends portal_generic
     'name'        => 'Realmstatus Module',
     'version'     => '1.1.4',
     'author'      => 'Aderyn',
+	'icon'			=> 'fa-desktop',
     'contact'     => 'Aderyn@gmx.net',
     'description' => 'Show Realmstatus',
   );
