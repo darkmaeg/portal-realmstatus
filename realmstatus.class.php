@@ -167,7 +167,7 @@ if (!class_exists('mmo_realmstatus'))
     {
       // set empty list of realms
       $this->servers = array();
-
+	  // TODO: Hoofy anpassen
       // list of realms by portal modul config?
       if ($this->config->get('realm') && strlen($this->config->get('realm')) > 0)
       {
