@@ -169,7 +169,7 @@ if (!class_exists('mmo_realmstatus'))
       $this->servers = array();
 
       // list of realms by portal modul config?
-      if ($this->config('realm') && strlen($this->config('realm')) > 0)
+      if ($this->config->get('realm') && strlen($this->config->get('realm')) > 0)
       {
         // build array by exploding
         $this->servers = explode(',', $this->config('realm'));
