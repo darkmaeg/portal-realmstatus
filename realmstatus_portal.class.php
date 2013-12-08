@@ -56,7 +56,7 @@ class realmstatus_portal extends portal_generic
   /**
    * Constructor
    */
-  public function __construct($position='')
+  /*public function __construct($position='')
   {
     parent::__construct($position);
 
@@ -67,7 +67,7 @@ class realmstatus_portal extends portal_generic
         'text'		=> 'GD LIB Version',
       );
     }
-  }
+  }*/
 
   /**
    * output
@@ -101,16 +101,6 @@ class realmstatus_portal extends portal_generic
 
     // return the output for module manager
     return $realmstatus;
-  }
-
-  /**
-   * reset
-   * Reset the portal module
-   */
-  public function reset()
-  {
-    // clear cache
-    $this->pdc->del_prefix('portal.module.realmstatus');
   }
 
 }
