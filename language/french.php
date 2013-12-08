@@ -16,31 +16,30 @@
  * $Id: french.php 12468 2012-11-17 10:37:37Z shoorty $
  */
 
-if (!defined('EQDKP_INC'))
-{
+if (!defined('EQDKP_INC')){
   header('HTTP/1.0 404 Not Found');exit;
 }
 
 // Title
-$lang['realmstatus']           = 'Etat du royaume';
-$lang['realmstatus_name']      = 'Etat du royaume';
-$lang['realmstatus_desc']      = 'Display the current realm status';
+$lang['realmstatus']				= 'Etat du royaume';
+$lang['realmstatus_name']			= 'Etat du royaume';
+$lang['realmstatus_desc']			= 'Display the current realm status';
 
 //  Settings
-$lang['rs_realm']              = 'Liste des Serveur';
-$lang['rs_realm_help']         = 'For multiple servers the servers have to be insert comma separated.';
-$lang['rs_us']                 = 'Serveur US ?';
-$lang['rs_us_help']            = 'This setting has only effects if RIFT or WoW is set as game.';
-$lang['rs_gd']                 = 'Lib GD trouvée. Voulez-vous l\'utliser ?';
-$lang['rs_gd_help']            = 'This setting has only effects if WoW is set as game.';
+$lang['realmstatus_f_realm']		= 'Liste des Serveur';
+$lang['realmstatus_f_help_realm']	= 'For multiple servers the servers have to be insert comma separated.';
+$lang['realmstatus_f_us']			= 'Serveur US ?';
+$lang['realmstatus_f_help_us']		= 'This setting has only effects if RIFT or WoW is set as game.';
+$lang['realmstatus_f_gd']			= 'Lib GD trouvée. Voulez-vous l\'utliser ?';
+$lang['realmstatus_f_help_gd']		= 'This setting has only effects if WoW is set as game.';
 
 // Portal Modul
-$lang['rs_no_realmname']       = 'Pas de royaume spécifié';
-$lang['rs_realm_not_found']    = 'Realm not found';
-$lang['rs_game_not_supported'] = 'Ce module ne fonctionne pas pour le jeu indiqué';
-$lang['rs_unknown']            = 'Unknown';
-$lang['rs_realm_status_error'] = "Errors occured while determing realmstatus for %1\$s";
-$lang['rs_loading']            = 'Loading Status...';
-$lang['rs_loading_error']      = 'Failed to load Status.';
+$lang['rs_no_realmname']			= 'Pas de royaume spécifié';
+$lang['rs_realm_not_found']			= 'Realm not found';
+$lang['rs_game_not_supported']		= 'Ce module ne fonctionne pas pour le jeu indiqué';
+$lang['rs_unknown']					= 'Unknown';
+$lang['rs_realm_status_error']		= "Errors occured while determing realmstatus for %1\$s";
+$lang['rs_loading']					= 'Loading Status...';
+$lang['rs_loading_error']			= 'Failed to load Status.';
 
 ?>

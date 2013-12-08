@@ -192,7 +192,7 @@ if (!class_exists('wow_realmstatus'))
       include_once($file_style_gdi);
 
       // get class
-      if ($this->config->get('rs_gd'))
+      if ($this->config('gd'))
         $this->style = registry::register('wowstatus_style_gdi');
       else
         $this->style = registry::register('wowstatus_style_normal');

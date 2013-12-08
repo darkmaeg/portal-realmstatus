@@ -26,48 +26,31 @@ if ( !defined('EQDKP_INC') ){
 class realmstatus_portal extends portal_generic
 {
 
-  /**
-   * __dependencies
-   * Get module dependencies
-   */
-  public static function __shortcuts()
-  {
-    $shortcuts = array('user', 'pdc', 'game');
-    return array_merge(parent::$shortcuts, $shortcuts);
-  }
-
-  protected $path = 'realmstatus';
-  protected $data = array(
-    'name'        => 'Realmstatus Module',
-    'version'     => '1.1.4',
-    'author'      => 'Aderyn',
+  protected static $path = 'realmstatus';
+  protected static $data = array(
+    'name'			=> 'Realmstatus Module',
+    'version'		=> '1.1.4',
+    'author'		=> 'Aderyn',
 	'icon'			=> 'fa-desktop',
-    'contact'     => 'Aderyn@gmx.net',
-    'description' => 'Show Realmstatus',
+    'contact'		=> 'Aderyn@gmx.net',
+    'description' 	=> 'Show Realmstatus',
+	'exchangeMod'	=> array('realmstatus'),
+	'lang_prefix'	=> 'realmstatus_'
   );
-  protected $positions = array('left1', 'left2', 'right');
+  protected static $positions = array('left1', 'left2', 'right');
   protected $settings = array(
-    'pk_realmstatus_realm'  => array(
-      'name'     => 'rs_realm',
-      'language' => 'rs_realm',
-      'property' => 'text',
-      'size'     => '40',
-      'help'     => 'rs_realm_help',
+    'realm'  => array(
+      'type'		=> 'text',
+      'size'		=> '40',
     ),
-    'pk_realmstatus_us' => array(
-      'name'     => 'rs_us',
-      'language' => 'rs_us',
-      'property' => 'checkbox',
-      'help'     => 'rs_us_help',
+    'us' => array(
+      'type'		=> 'checkbox',
     ),
   );
-  protected $install  = array(
+  protected static $install  = array(
     'autoenable'      => '0',
     'defaultposition' => 'right',
     'defaultnumber'   => '5',
-  );
-  protected $exchangeModules = array(
-    'realmstatus',
   );
 
   /**
@@ -78,14 +61,10 @@ class realmstatus_portal extends portal_generic
     parent::__construct($position);
 
     // check ig gd lib is available, if so, make option to use available
-    if (extension_loaded('gd') && function_exists('gd_info'))
-    {
-      $this->settings['pk_realmstatus_gd'] = array(
-        'name'     => 'rs_gd',
-        'language' => 'rs_gd',
-        'property' => 'checkbox',
-        'text'     => 'GD LIB Version',
-        'help'     => 'rs_gd_help',
+    if (extension_loaded('gd') && function_exists('gd_info')){
+      $this->settings['gd'] = array(
+        'type' 		=> 'checkbox',
+        'text'		=> 'GD LIB Version',
       );
     }
   }

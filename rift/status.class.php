@@ -203,7 +203,7 @@ if (!class_exists('rift_realmstatus'))
     private function loadStatus()
     {
       // get region
-      $region = ($this->config->get('rs_us')) ? 'us' : 'eu';
+      $region = ($this->config('us')) ? 'us' : 'eu';
 
       // try to load data from cache
       $this->shards = $this->pdc->get('portal.module.realmstatus.rift.'.$region, false, true);
@@ -231,7 +231,7 @@ if (!class_exists('rift_realmstatus'))
       $shards = array();
 
       // get url depending on region
-      $shards_url = ($this->config->get('rs_us')) ? $this->rift_url_us : $this->rift_url_eu;
+      $shards_url = ($this->config('us')) ? $this->rift_url_us : $this->rift_url_eu;
 
       // set URL reader options
       $this->puf->checkURL_first = true;
@@ -326,7 +326,7 @@ if (!class_exists('rift_realmstatus'))
           switch ($language)
           {
             case 'german':  return 'de';
-            case 'english': return $this->config->get('rs_us') ? 'us' : 'gb';
+            case 'english': return $this->config('us') ? 'us' : 'gb';
             case 'french':  return 'fr';
           }
         }
