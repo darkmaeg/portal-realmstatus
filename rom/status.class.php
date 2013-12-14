@@ -90,13 +90,17 @@ if (!class_exists('rom_realmstatus'))
     private $image_path;
 
 
+    private $moduleID = 0;
+
     /**
      * Constructor
      */
-    public function __construct()
+    public function __construct($moduleID)
     {
       // call base constructor
       parent::__construct();
+	  
+	  $this->moduleID = $moduleID;
 
       // set image path
       $this->image_path = $this->env->link.'portal/realmstatus/rom/images/';

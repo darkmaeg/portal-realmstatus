@@ -50,14 +50,18 @@ if (!class_exists('wow_realmstatus'))
 
     /* The style for output */
     private $style;
+	
+	private $moduleID = 0;
 
     /**
      * Constructor
      */
-    public function __construct()
+    public function __construct($moduleID)
     {
       // call base constructor
       parent::__construct();
+	  
+	  $this->moduleID = $moduleID;
 
       // init armory
       $this->initArmory();
@@ -192,7 +196,7 @@ if (!class_exists('wow_realmstatus'))
       include_once($file_style_gdi);
 
       // get class
-      if ($this->config('gd'))
+      if ($this->config->get('gd', 'pmod_'.$this->moduleID))
         $this->style = registry::register('wowstatus_style_gdi');
       else
         $this->style = registry::register('wowstatus_style_normal');

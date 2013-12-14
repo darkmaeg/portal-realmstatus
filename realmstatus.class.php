@@ -35,14 +35,17 @@ if (!class_exists('mmo_realmstatus'))
 
     /* List of servers to process */
     private $servers = array();
+	
+	private $moduleID = 0;
 
     /**
      * Constructor
      */
-    public function __construct()
+    public function __construct($moduleID)
     {
       // load server list
       $this->loadServerList();
+	  $this->moduleID = $moduleID;
     }
 
     /**

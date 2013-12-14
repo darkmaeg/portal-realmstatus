@@ -88,7 +88,7 @@ class realmstatus_portal extends portal_generic
       include_once($status_file);
 
       $class_name = $game_name.'_realmstatus';
-      $status = registry::register($class_name);
+      $status = registry::register($class_name, array($this->id));
       if ($status)
         $realmstatus .= $status->getPortalOutput();
       else

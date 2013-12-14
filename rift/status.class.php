@@ -65,13 +65,17 @@ if (!class_exists('rift_realmstatus'))
     private $image_path;
 
 
+   	private $moduleID = 0;
+
     /**
      * Constructor
      */
-    public function __construct()
+    public function __construct($moduleID)
     {
       // call base constructor
       parent::__construct();
+	  
+	  $this->moduleID = $moduleID;
 
       // set image path
       $this->image_path = $this->env->link.'portal/realmstatus/rift/images/';
@@ -203,7 +207,7 @@ if (!class_exists('rift_realmstatus'))
     private function loadStatus()
     {
       // get region
-      $region = ($this->config('us')) ? 'us' : 'eu';
+      $region = ($this->config->get('us', 'pmod_'.$this->moduleID)) ? 'us' : 'eu';
 
       // try to load data from cache
       $this->shards = $this->pdc->get('portal.module.realmstatus.rift.'.$region, false, true);
@@ -231,7 +235,7 @@ if (!class_exists('rift_realmstatus'))
       $shards = array();
 
       // get url depending on region
-      $shards_url = ($this->config('us')) ? $this->rift_url_us : $this->rift_url_eu;
+      $shards_url = ($this->config->get('us', 'pmod_'.$this->moduleID)) ? $this->rift_url_us : $this->rift_url_eu;
 
       // set URL reader options
       $this->puf->checkURL_first = true;
@@ -326,7 +330,7 @@ if (!class_exists('rift_realmstatus'))
           switch ($language)
           {
             case 'german':  return 'de';
-            case 'english': return $this->config('us') ? 'us' : 'gb';
+            case 'english': return $this->config->get('us', 'pmod_'.$this->moduleID) ? 'us' : 'gb';
             case 'french':  return 'fr';
           }
         }

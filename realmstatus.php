@@ -26,6 +26,7 @@ registry::register('portal')->load_lang('realmstatus');
 // get game the status is requested for
 $game_name = registry::register('input')->get('game', 'unknown');
 $game_name = strtolower($game_name);
+$module_id = registry::register('input')->get('mid', 0);
 
 // try to get a game status file for the requested game
 $status_file = $eqdkp_root_path.'portal/realmstatus/'.$game_name.'/status.class.php';
@@ -34,7 +35,7 @@ if (file_exists($status_file))
   include_once($status_file);
 
   $class_name = $game_name.'_realmstatus';
-  $status = registry::register($class_name);
+  $status = registry::register($class_name, array($module_id));
   if ($status)
 	$realmstatus = $status->getJQueryOutput();
   else
