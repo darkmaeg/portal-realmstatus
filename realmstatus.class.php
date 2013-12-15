@@ -192,7 +192,7 @@ if (!class_exists('mmo_realmstatus'))
     {
       // build JS for Async load
       $jscode = '$.ajax({
-                    url: "'.$this->server_path.'portal/realmstatus/realmstatus.php'.$this->SID.'",
+                    url: "'.$this->server_path.'portal/realmstatus/realmstatus.php'.$this->SID.'&mid='.$this->moduleID.'",
                     data: {
                       game: "'.$this->game_name.'"
                     },
