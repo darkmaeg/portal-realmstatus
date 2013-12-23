@@ -30,7 +30,7 @@ $lang['realmstatus_f_realm']		= 'Liste des Serveur';
 $lang['realmstatus_f_help_realm']	= 'For multiple servers the servers have to be insert comma separated.';
 $lang['realmstatus_f_us']			= 'Serveur US ?';
 $lang['realmstatus_f_help_us']		= 'This setting has only effects if RIFT or WoW is set as game.';
-$lang['realmstatus_f_gd']			= 'Lib GD trouvée. Voulez-vous l\'utliser ?';
+$lang['realmstatus_f_gd']			= 'Lib GD (%s) trouvée. Voulez-vous l\'utliser ?';
 $lang['realmstatus_f_help_gd']		= 'This setting has only effects if WoW is set as game.';
 
 // Portal Modul

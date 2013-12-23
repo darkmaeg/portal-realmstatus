@@ -30,7 +30,7 @@ $lang['realmstatus_f_realm']		= 'Liste von Servern';
 $lang['realmstatus_f_help_realm']	= 'Bei mehreren Servern müssen diese durch Komma getrennt angegeben werden.';
 $lang['realmstatus_f_us']			= 'Handelt es sich um einen US Server?';
 $lang['realmstatus_f_help_us']		= 'Diese Einstellung hat nur Auswirkungen wenn als Spiel RIFT oder WoW eingestellt ist.';
-$lang['realmstatus_f_gd']			= 'GD Lib erkannt. GD Lib Version verwenden?';
+$lang['realmstatus_f_gd']			= 'GD Lib (%s) erkannt. GD Lib Version verwenden?';
 $lang['realmstatus_f_help_gd']		= 'Diese Einstellung hat nur Auswirkungen wenn als Spiel WoW eingestellt ist.';
 
 // Portal Modul

@@ -30,8 +30,8 @@ $lang['realmstatus_f_realm']		= 'List of servers';
 $lang['realmstatus_f_help_realm']	= 'For multiple servers the servers have to be insert comma separated';
 $lang['realmstatus_f_us']			= 'Is it an US server?';
 $lang['realmstatus_f_help_us']		= 'This setting has only effects if RIFT or WoW is set as game.';
-$lang['realmstatus_f_gd']			= 'GD Lib found. Do you want to use it?';
-$lang['realmstatus_f_help_gd']		= 'This setting has only effects if WoW is set as game.';
+$lang['realmstatus_f_gd']			= 'GD Lib (%s) found. Do you want to use it?';
+$lang['realmstatus_f_help_gd']		= 'This setting only effects the game WoW.';
 
 // Portal Modul
 $lang['rs_no_realmname']			= 'No realm specified';
