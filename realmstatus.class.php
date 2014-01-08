@@ -28,24 +28,21 @@ if (!class_exists('mmo_realmstatus'))
   abstract class mmo_realmstatus extends gen_class
   {
     /* List of dependencies */
-    public static $shortcuts = array('core', 'user', 'config', 'pex' => 'plus_exchange', 'tpl');
+    public static $shortcuts = array('core', 'user', 'pex' => 'plus_exchange', 'tpl');
 
     /* Game name */
     protected $game_name = 'unknown';
 
     /* List of servers to process */
     private $servers = array();
-	
-	private $moduleID = 0;
 
     /**
      * Constructor
      */
-    public function __construct($moduleID)
+    public function __construct()
     {
       // load server list
       $this->loadServerList();
-	  $this->moduleID = $moduleID;
     }
 
     /**
@@ -174,7 +171,7 @@ if (!class_exists('mmo_realmstatus'))
       if ($this->config->get('realm', 'pmod_'.$this->moduleID) && strlen($this->config->get('realm', 'pmod_'.$this->moduleID)) > 0)
       {
         // build array by exploding
-        $this->servers = explode(',', $this->config('realm', 'pmod_'.$this->moduleID));
+        $this->servers = explode(',', $this->config->get('realm', 'pmod_'.$this->moduleID));
       }
       else if ($this->config->get('uc_servername') && strlen($this->config->get('uc_servername')) > 0)
       {

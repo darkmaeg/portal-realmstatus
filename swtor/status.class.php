@@ -68,10 +68,10 @@ if (!class_exists('swtor_realmstatus'))
      */
     public function __construct($moduleID)
     {
+      $this->moduleID = $moduleID;
+      
       // call base constructor
       parent::__construct();
-	  
-	  $this->moduleID = $moduleID;
 
       // set image path
       $this->image_path = $this->env->link.'portal/realmstatus/swtor/images/';

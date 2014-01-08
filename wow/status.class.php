@@ -51,17 +51,17 @@ if (!class_exists('wow_realmstatus'))
     /* The style for output */
     private $style;
 	
-	private $moduleID = 0;
+	protected $moduleID = 0;
 
     /**
      * Constructor
      */
     public function __construct($moduleID)
     {
+       $this->moduleID = $moduleID;
+
       // call base constructor
       parent::__construct();
-	  
-	  $this->moduleID = $moduleID;
 
       // init armory
       $this->initArmory();

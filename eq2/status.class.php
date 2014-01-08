@@ -69,10 +69,10 @@ if (!class_exists('eq2_realmstatus'))
      */
     public function __construct($moduleID)
     {
+      $this->moduleID = $moduleID;
+      
       // call base constructor
       parent::__construct();
-	  
-	  $this->moduleID = $moduleID;
 
       // set image path
       $this->image_path = $this->env->link.'portal/realmstatus/eq2/images/';
