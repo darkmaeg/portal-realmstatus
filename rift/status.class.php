@@ -166,7 +166,7 @@ if (!class_exists('rift_realmstatus'))
           $country_flag = $this->getCountryFlag($servername);
           $output .= '<div class="td">';
           if ($country_flag != '')
-            $output .= '<img src="'.$this->env->link.'images/flags/'.$country_flag.'.png" alt="'.$country_flag.'" title="'.$this->shards[$servername]['language'].'"/>';
+            $output .= '<img src="'.$this->env->link.'images/flags/'.$country_flag.'.svg" alt="'.$country_flag.'" title="'.$this->shards[$servername]['language'].'"/>';
           $output .= '</div>';
 
           // end row diff

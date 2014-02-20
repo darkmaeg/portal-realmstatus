@@ -150,7 +150,7 @@ if (!class_exists('swtor_realmstatus'))
              // set country
              $country_flag = $this->getCountryFlag($serverdata['language']);
              $country_title = $serverdata['region'] == 'us' ? $serverdata['language'].' ('.$serverdata['timezone'].')' : $serverdata['language'];
-             $country_div = '<img src="'.$this->env->link.'images/flags/'.$country_flag.'.png" alt="'.$country_title.'" title="'.$country_title.'"/>';
+             $country_div = '<img src="'.$this->env->link.'images/flags/'.$country_flag.'.svg" alt="'.$country_title.'" title="'.$country_title.'"/>';
           }
 
           $output .= '<div class="rs_swtor_status rs_swtor_'.$status.'">

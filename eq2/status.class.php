@@ -167,7 +167,7 @@ if (!class_exists('eq2_realmstatus'))
           $country_flag = $this->getCountryFlag($servername);
           $output .= '<div class="td">';
           if ($country_flag != '')
-            $output .= '<img src="'.$this->env->link.'images/flags/'.$country_flag.'.png" alt="'.$country_flag.'" title="'.$this->servers[$servername]['region'].'"/>';
+            $output .= '<img src="'.$this->env->link.'images/flags/'.$country_flag.'.svg" alt="'.$country_flag.'" title="'.$this->servers[$servername]['region'].'"/>';
           $output .= '</div>';
 
           // end row diff
