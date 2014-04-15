@@ -50,7 +50,7 @@ if (!class_exists('eq2_realmstatus'))
     protected $game_name = 'eq2';
 
     /* URL to load server status from */
-    private $eq2_url = 'http://data.soe.com/xml/status/eq2';
+    private $eq2_url = 'http://census.soe.com/s:eqdkpplus/xml/status/eq2';
 
     /* cache time in seconds default 10 minutes = 600 seconds */
     private $cachetime = 600;
@@ -95,12 +95,15 @@ if (!class_exists('eq2_realmstatus'))
           // return status
           switch ($this->servers[$servername]['status'])
           {
-            case 'down':    return 'down';
-            case 'locked':  return 'locked';
-			case 'up': return 'up';
+            case 'down':     return 'down';
+            case 'locked':	 return 'locked';
+			case 'up':		 return 'up';
 			case 'missing' : return 'missing';
 			case 'unknown' : return 'unknown';
-            default:        return 'up';
+			case 'high': 	 return 'high';
+			case 'medium': 	 return 'medium';
+			case 'low':      return 'low';
+            default:         return 'up';
           }
         }
       }
@@ -136,6 +139,15 @@ if (!class_exists('eq2_realmstatus'))
           // output status
           switch ($status)
           {
+			case 'low':
+              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /><img src="'.$this->image_path.'low.png" alt="Low" title="Low" /></div>';
+              break;
+			case 'medium':
+              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /><img src="'.$this->image_path.'med.png" alt="Medium" title="Medium" /></div>';
+              break;
+			case 'high':
+              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /><img src="'.$this->image_path.'high.png" alt="High" title="High" /></div>';
+              break;
             case 'up':
               $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /></div>';
               break;
