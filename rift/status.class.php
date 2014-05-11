@@ -50,10 +50,10 @@ if (!class_exists('rift_realmstatus'))
     protected $game_name = 'rift';
 
     /* URL to load shard status from (EU)*/
-    private $rift_url_eu = 'http://eu.riftgame.com/en/status/eu-status.xml';
+    private $rift_url_eu = 'http://status.riftgame.com/eu-status.xml';
 
     /* URL to load shard status from (North America)*/
-    private $rift_url_us = 'http://eu.riftgame.com/en/status/na-status.xml';
+    private $rift_url_us = 'http://status.riftgame.com/na-status.xml';
 
     /* cache time in seconds default 10 minutes = 600 seconds */
     private $cachetime = 600;
