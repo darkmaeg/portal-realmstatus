@@ -28,7 +28,7 @@ class realmstatus_portal extends portal_generic {
 	protected static $path = 'realmstatus';
 	protected static $data = array(
 		'name'			=> 'Realmstatus Module',
-		'version'		=> '1.1.4',
+		'version'		=> '1.1.6',
 		'author'		=> 'Aderyn',
 		'icon'			=> 'fa-desktop',
 		'contact'		=> 'Aderyn@gmx.net',
