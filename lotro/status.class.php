@@ -41,7 +41,7 @@ if (!class_exists('lotro_realmstatus'))
      */
     public static function __shortcuts()
     {
-      $shortcuts = array('user', 'pdc', 'puf' => 'urlfetcher', 'env' => 'environment', 'tpl');
+      $shortcuts = array('puf' => 'urlfetcher', 'env' => 'environment');
       return array_merge(parent::$shortcuts, $shortcuts);
     }
 

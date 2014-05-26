@@ -35,15 +35,6 @@ if (!class_exists('wow_realmstatus'))
 {
   class wow_realmstatus extends mmo_realmstatus
   {
-    /**
-     * __dependencies
-     * Get module dependencies
-     */
-    public static function __shortcuts()
-    {
-      $shortcuts = array('config', 'user', 'game');
-      return array_merge(parent::$shortcuts, $shortcuts);
-    }
 
     /* Game name */
     protected $game_name = 'wow';

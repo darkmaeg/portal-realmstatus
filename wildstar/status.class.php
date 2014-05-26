@@ -35,7 +35,7 @@ if (!class_exists('wildstar_realmstatus')){
 		* Get module dependencies
 		*/
 		public static function __shortcuts(){
-			$shortcuts = array('user', 'config', 'pdc', 'puf' => 'urlfetcher', 'env' => 'environment', 'tpl');
+			$shortcuts = array('puf' => 'urlfetcher', 'env' => 'environment');
 			return array_merge(parent::$shortcuts, $shortcuts);
 		}
 

@@ -35,15 +35,6 @@ if (!class_exists("wowstatus_style_gdi"))
 {
   class wowstatus_style_gdi extends wowstatus_style_base
   {
-    /**
-     * __dependencies
-     * Get module dependencies
-     */
-    public static function __shortcuts()
-    {
-      $shortcuts = array('user', 'tpl', 'pdc', 'pfh');
-      return array_merge(parent::$shortcuts, $shortcuts);
-    }
 
     /* Base image path */
     private $image_path;
@@ -305,6 +296,4 @@ if (!class_exists("wowstatus_style_gdi"))
 
   }
 }
-
-if(version_compare(PHP_VERSION, '5.3.0', '<')) registry::add_const('short_wowstatus_style_gdi', wowstatus_style_gdi::__shortcuts());
 ?>

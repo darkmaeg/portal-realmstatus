@@ -28,7 +28,7 @@ if (!class_exists('mmo_realmstatus'))
   abstract class mmo_realmstatus extends gen_class
   {
     /* List of dependencies */
-    public static $shortcuts = array('core', 'user', 'pex' => 'plus_exchange', 'tpl');
+    public static $shortcuts = array('pex' => 'plus_exchange');
 
     /* Game name */
     protected $game_name = 'unknown';

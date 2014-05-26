@@ -35,15 +35,6 @@ if (!class_exists("wowstatus_style_normal"))
 {
   class wowstatus_style_normal extends wowstatus_style_base
   {
-    /**
-     * __dependencies
-     * Get module dependencies
-     */
-    public static function __shortcuts()
-    {
-      $shortcuts = array('user', 'env' => 'environment', 'tpl');
-      return array_merge(parent::$shortcuts, $shortcuts);
-    }
 
     /* Base image path */
     private $image_path;

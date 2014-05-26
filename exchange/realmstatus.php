@@ -29,7 +29,7 @@ if (!class_exists('exchange_realmstatus'))
   class exchange_realmstatus extends gen_class
   {
     /* List of dependencies */
-    public static $shortcuts = array('user', 'game', 'pex' => 'plus_exchange');
+    public static $shortcuts = array('pex' => 'plus_exchange');
     
     /* Additional options */
     public $options = array();
