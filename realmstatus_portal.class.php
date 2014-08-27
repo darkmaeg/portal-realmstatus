@@ -51,6 +51,8 @@ class realmstatus_portal extends portal_generic {
 		'defaultposition' => 'right',
 		'defaultnumber'   => '5',
 	);
+	
+	protected static $apiLevel = 20;
 
 	public function get_settings($state) {
 		// check ig gd lib is available, if so, make option to use available
