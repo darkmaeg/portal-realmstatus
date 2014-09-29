@@ -170,7 +170,7 @@ if (!class_exists('wow_realmstatus'))
     {
       // init the Battle.net armory object
       $serverLoc = $this->config->get('uc_server_loc') ? $this->config->get('uc_server_loc') : 'eu';
-      $this->game->new_object('bnet_armory', 'armory', array($serverLoc, $this->config->get('uc_data_lang'), $this->config->get('game_importer_apikey')));
+      $this->game->new_object('bnet_armory', 'armory', array($serverLoc, $this->config->get('uc_data_lang')));
     }
 
     /**
