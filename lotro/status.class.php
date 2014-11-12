@@ -63,8 +63,6 @@ if (!class_exists('lotro_realmstatus'))
     private $image_path;
 
 
-    private $moduleID = 0;
-
     /**
      * Constructor
      */

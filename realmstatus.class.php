@@ -35,6 +35,8 @@ if (!class_exists('mmo_realmstatus'))
 
     /* List of servers to process */
     private $servers = array();
+    
+    protected $moduleID = 0;
 
     /**
      * Constructor
@@ -126,7 +128,7 @@ if (!class_exists('mmo_realmstatus'))
     public function getJQueryOutput()
     {
       $output = '';
-
+      
       // no realm specified?
       if (count($this->servers) > 0)
       {

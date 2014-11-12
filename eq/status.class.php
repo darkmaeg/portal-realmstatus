@@ -62,8 +62,6 @@ if (!class_exists('eq_realmstatus'))
     private $image_path;
 
 
-    private $moduleID = 0;
-
     /**
      * Constructor
      */

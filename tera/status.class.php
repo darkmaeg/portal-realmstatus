@@ -60,8 +60,6 @@ if (!class_exists('tera_realmstatus'))
 
     /* image path */
     private $image_path;
-	
-	private $moduleID = 0;
 
     /**
      * Constructor

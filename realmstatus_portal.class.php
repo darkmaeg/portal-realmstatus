@@ -72,7 +72,7 @@ class realmstatus_portal extends portal_generic {
 	*
 	* @return string
 	*/
-	public function output() {
+	public function output() {		
 		// empty output as default
 		$realmstatus = '';
 

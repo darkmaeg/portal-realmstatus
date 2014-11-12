@@ -90,8 +90,6 @@ if (!class_exists('rom_realmstatus'))
     private $image_path;
 
 
-    private $moduleID = 0;
-
     /**
      * Constructor
      */

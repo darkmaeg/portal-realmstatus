@@ -61,7 +61,6 @@ if (!class_exists('swtor_realmstatus'))
     /* image path */
     private $image_path;
 
-    private $moduleID = 0;
 
     /**
      * Constructor
