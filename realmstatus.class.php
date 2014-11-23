@@ -175,10 +175,10 @@ if (!class_exists('mmo_realmstatus'))
         // build array by exploding
         $this->servers = explode(',', $this->config->get('realm', 'pmod_'.$this->moduleID));
       }
-      else if ($this->config->get('uc_servername') && strlen($this->config->get('uc_servername')) > 0)
+      else if ($this->config->get('servername') && strlen($this->config->get('servername')) > 0)
       {
         // realm name by plus config?
-        $this->servers[] = $this->config->get('uc_servername');
+        $this->servers[] = $this->config->get('servername');
       }
     }
 
