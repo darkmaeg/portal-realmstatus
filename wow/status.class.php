@@ -1,199 +1,181 @@
 <?php
-/*
- * Project:     EQdkp-Plus
- * License:     Creative Commons - Attribution-Noncommercial-Share Alike 3.0 Unported
- * Link:        http://creativecommons.org/licenses/by-nc-sa/3.0/
- * -----------------------------------------------------------------------
- * Began:       2010
- * Date:        $Date: 2012-08-28 12:00:16 +0200 (Di, 28. Aug 2012) $
- * -----------------------------------------------------------------------
- * @author      $Author: wallenium $
- * @copyright   2010-2011 Aderyn
- * @link        http://eqdkp-plus.com
- * @package     eqdkp-plus
- * @version     $Rev: 11982 $
+/*	Project:	EQdkp-Plus
+ *	Package:	Realm Status Portal Module
+ *	Link:		http://eqdkp-plus.eu
  *
- * $Id: status.class.php 11982 2012-08-28 10:00:16Z wallenium $
+ *	Copyright (C) 2006-2015 EQdkp-Plus Developer Team
+ *
+ *	This program is free software: you can redistribute it and/or modify
+ *	it under the terms of the GNU Affero General Public License as published
+ *	by the Free Software Foundation, either version 3 of the License, or
+ *	(at your option) any later version.
+ *
+ *	This program is distributed in the hope that it will be useful,
+ *	but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *	GNU Affero General Public License for more details.
+ *
+ *	You should have received a copy of the GNU Affero General Public License
+ *	along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-if (!defined('EQDKP_INC'))
-{
-  header('HTTP/1.0 404 Not Found');
-  exit;
+if (!defined('EQDKP_INC')){
+	header('HTTP/1.0 404 Not Found');exit;
 }
 
-
-if (!class_exists('mmo_realmstatus'))
-{
-  include_once(registry::get_const('root_path').'portal/realmstatus/realmstatus.class.php');
+if (!class_exists('mmo_realmstatus'){
+	include_once(registry::get_const('root_path').'portal/realmstatus/realmstatus.class.php');
 }
 
 /*+----------------------------------------------------------------------------
   | wow_realmstatus
   +--------------------------------------------------------------------------*/
-if (!class_exists('wow_realmstatus'))
-{
-  class wow_realmstatus extends mmo_realmstatus
-  {
+if (!class_exists('wow_realmstatus')){
+	class wow_realmstatus extends mmo_realmstatus{
 
-    /* Game name */
-    protected $game_name = 'wow';
+		/* Game name */
+		protected $game_name = 'wow';
 
-    /* The style for output */
-    private $style;
+		/* The style for output */
+		private $style;
 	
-	protected $moduleID = 0;
+		protected $moduleID = 0;
 
-    /**
-     * Constructor
-     */
-    public function __construct($moduleID)
-    {
-       $this->moduleID = $moduleID;
+		/**
+		* Constructor
+		*/
+		public function __construct($moduleID){
+			$this->moduleID = $moduleID;
 
-      // call base constructor
-      parent::__construct();
+			// call base constructor
+			parent::__construct();
 
-      // init armory
-      $this->initArmory();
+			// init armory
+			$this->initArmory();
 
-      // init the styles class
-      $this->initStyle();
-    }
+			// init the styles class
+			$this->initStyle();
+		}
 
-    /**
-     * checkServer
-     * Check if specified server is up/down/unknown
-     *
-     * @param  string  $servername  Name of server to check
-     *
-     * @return string ('up', 'down', 'unknown')
-     */
-    public function checkServer($servername)
-    {
-      $realmdata = $this->getRealmData($servername);
+		/**
+		* checkServer
+		* Check if specified server is up/down/unknown
+		*
+		* @param  string  $servername  Name of server to check
+		*
+		* @return string ('up', 'down', 'unknown')
+		*/
+		public function checkServer($servername){
+			$realmdata = $this->getRealmData($servername);
 
-      // get status of realm
-      if (is_array($realmdata) && isset($realmdata['status']))
-      {
-        switch (intval($realmdata['status']))
-        {
-          case 0:  return 'down';    break;
-          case 1:  return 'up';      break;
-          default: return 'unknown'; break;
-        }
-      }
+			// get status of realm
+			if (is_array($realmdata) && isset($realmdata['status'])){
+				switch (intval($realmdata['status'])){
+					case 0:	return 'down';		break;
+					case 1:	return 'up';		break;
+					default:	return 'unknown';	break;
+				}
+			}
+			return 'unknown';
+		}
 
-      return 'unknown';
-    }
+		/**
+		* getOutput
+		* Get the portal output for all servers
+		*
+		* @param  array  $servers  Array of server names
+		*
+		* @return string
+		*/
+		protected function getOutput($servers){
+			// get realms array
+			$realms = array();
+			foreach ($servers as $realm){
+				$realm = trim($realm);
+				$realm = html_entity_decode($realm, ENT_QUOTES);
+				$realmdata = $this->getRealmData($realm);
+				$realms[$realm] = $realmdata;
+			}
 
-    /**
-     * getOutput
-     * Get the portal output for all servers
-     *
-     * @param  array  $servers  Array of server names
-     *
-     * @return string
-     */
-    protected function getOutput($servers)
-    {
-      // get realms array
-      $realms = array();
-      foreach ($servers as $realm)
-      {
-        $realm = trim($realm);
-        $realm = html_entity_decode($realm, ENT_QUOTES);
-        $realmdata = $this->getRealmData($realm);
-        $realms[$realm] = $realmdata;
-      }
+			// get output from style
+			$output = $this->style->output($realms);
+			return $output;
+		}
 
-      // get output from style
-      $output = $this->style->output($realms);
+		/**
+		* outputCSS
+		* Output CSS
+		*/
+		protected function outputCSS(){
+			$this->style->outputCssStyle();
+		}
 
-      return $output;
-    }
+		/**
+		* getRealmData
+		* Get the realm data for the specified realm
+		*
+		* @param  string  $realmname  Name of the realm
+		*
+		* @return array(type, queue, status, population, name, slug)
+		*/
+		private function getRealmData($realmname){
+			// convert the realm name to the API specific handling
+			$name = trim($realmname);
+			$name = strtolower($name);
+			$name = str_replace(array('\'', ' '), array('', '-'), $name);
 
-    /**
-     * outputCSS
-     * Output CSS
-     */
-    protected function outputCSS()
-    {
-      $this->style->outputCssStyle();
-    }
+			// get the cached (do not force) realm data for this realm
+			$realmdata = $this->game->obj['armory']->realm(array($name), false);
 
-    /**
-     * getRealmData
-     * Get the realm data for the specified realm
-     *
-     * @param  string  $realmname  Name of the realm
-     *
-     * @return array(type, queue, status, population, name, slug)
-     */
-    private function getRealmData($realmname)
-    {
-      // convert the realm name to the API specific handling
-      $name = trim($realmname);
-      $name = strtolower($name);
-      $name = str_replace(array('\'', ' '), array('', '-'), $name);
+			// the data are returned as array with
+			// 'realms' => array(array(type, queue, status, population, name, slug))
 
-      // get the cached (do not force) realm data for this realm
-      $realmdata = $this->game->obj['armory']->realm(array($name), false);
+			// if array contains more than 1 realm, the realm is unknown and all realms are returned
+			// by the API, so ignore them
+			if (is_array($realmdata) && isset($realmdata['realms']) && is_array($realmdata['realms']) && count($realmdata['realms']) == 1){
+				// extract the realm data for this realm
+				return $realmdata['realms'][0];
+			}
 
-      // the data are returned as array with
-      // 'realms' => array(array(type, queue, status, population, name, slug))
+			// return as unknown
+			return array(
+				'type'			=> 'error',
+				'queue'			=> '',
+				'status'		=> -1,
+				'population'	=> 'error',
+				'name'			=> $realmname,
+				'slug'			=> $name,
+			);
+		}
 
-      // if array contains more than 1 realm, the realm is unknown and all realms are returned
-      // by the API, so ignore them
-      if (is_array($realmdata) && isset($realmdata['realms']) && is_array($realmdata['realms']) && count($realmdata['realms']) == 1)
-      {
-        // extract the realm data for this realm
-        return $realmdata['realms'][0];
-      }
+		/**
+		* initArmory
+		* Initialize the Armory access
+		*/
+		private function initArmory(){
+			// init the Battle.net armory object
+			$serverLoc = $this->config->get('uc_server_loc') ? $this->config->get('uc_server_loc') : 'eu';
+			$this->game->new_object('bnet_armory', 'armory', array($serverLoc, $this->config->get('uc_data_lang')));
+		}
 
-      // return as unknown
-      return array(
-        'type'       => 'error',
-        'queue'      => '',
-        'status'     => -1,
-        'population' => 'error',
-        'name'       => $realmname,
-        'slug'       => $name,
-      );
-    }
+		/**
+		* initStyle
+		* Initialize the styles classes
+		*/
+		private function initStyle(){
+			$file_style_normal = $this->root_path.'portal/realmstatus/wow/styles/wowstatus.style_normal.class.php';
+			$file_style_gdi    = $this->root_path.'portal/realmstatus/wow/styles/wowstatus.style_gdi.class.php';
 
-    /**
-     * initArmory
-     * Initialize the Armory access
-     */
-    private function initArmory()
-    {
-      // init the Battle.net armory object
-      $serverLoc = $this->config->get('uc_server_loc') ? $this->config->get('uc_server_loc') : 'eu';
-      $this->game->new_object('bnet_armory', 'armory', array($serverLoc, $this->config->get('uc_data_lang')));
-    }
+			// include the files
+			include_once($file_style_normal);
+			include_once($file_style_gdi);
 
-    /**
-     * initStyle
-     * Initialize the styles classes
-     */
-    private function initStyle()
-    {
-      $file_style_normal = $this->root_path.'portal/realmstatus/wow/styles/wowstatus.style_normal.class.php';
-      $file_style_gdi    = $this->root_path.'portal/realmstatus/wow/styles/wowstatus.style_gdi.class.php';
-
-      // include the files
-      include_once($file_style_normal);
-      include_once($file_style_gdi);
-
-      // get class
-      if ($this->config->get('gd', 'pmod_'.$this->moduleID))
-        $this->style = registry::register('wowstatus_style_gdi');
-      else
-        $this->style = registry::register('wowstatus_style_normal');
-    }
-
-  }
+			// get class
+			if ($this->config->get('gd', 'pmod_'.$this->moduleID))
+				$this->style = registry::register('wowstatus_style_gdi');
+			else
+				$this->style = registry::register('wowstatus_style_normal');
+		}
+	}
 }
-
 ?>
