@@ -23,7 +23,7 @@ if (!defined('EQDKP_INC')){
 	header('HTTP/1.0 404 Not Found');exit;
 }
 
-if (!class_exists('mmo_realmstatus'){
+if (!class_exists('mmo_realmstatus')){
 	include_once(registry::get_const('root_path').'portal/realmstatus/realmstatus.class.php');
 }
 
