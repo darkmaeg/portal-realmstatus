@@ -1,19 +1,22 @@
 <?php
-/*
- * Project:     EQdkp-Plus
- * License:     Creative Commons - Attribution-Noncommercial-Share Alike 3.0 Unported
- * Link:        http://creativecommons.org/licenses/by-nc-sa/3.0/
- * -----------------------------------------------------------------------
- * Began:       2010
- * Date:        $Date: 2012-11-14 20:57:12 +0100 (Mi, 14. Nov 2012) $
- * -----------------------------------------------------------------------
- * @author      $Author: godmod $
- * @copyright   2010-2011 Aderyn
- * @link        http://eqdkp-plus.com
- * @package     eqdkp-plus
- * @version     $Rev: 12455 $
+/*	Project:	EQdkp-Plus
+ *	Package:	Realm Status Portal Module
+ *	Link:		http://eqdkp-plus.eu
  *
- * $Id: wowstatus.style_gdi.class.php 12455 2012-11-14 19:57:12Z godmod $
+ *	Copyright (C) 2006-2015 EQdkp-Plus Developer Team
+ *
+ *	This program is free software: you can redistribute it and/or modify
+ *	it under the terms of the GNU Affero General Public License as published
+ *	by the Free Software Foundation, either version 3 of the License, or
+ *	(at your option) any later version.
+ *
+ *	This program is distributed in the hope that it will be useful,
+ *	but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *	GNU Affero General Public License for more details.
+ *
+ *	You should have received a copy of the GNU Affero General Public License
+ *	along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 if (!defined('EQDKP_INC'))
