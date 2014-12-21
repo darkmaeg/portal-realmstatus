@@ -35,6 +35,11 @@ if (!class_exists('exchange_realmstatus'))
 
 		/* Additional options */
 		public $options = array();
+		private $moduleID = 0;
+		
+		public function __construct($intModuleID=0){
+			$this->moduleID = $intModuleID;
+		}
 
 		/**
 		* get_realmstatus
@@ -56,7 +61,7 @@ if (!class_exists('exchange_realmstatus'))
 				include_once($status_file);
 
 				$class_name = $game_name.'_realmstatus';
-				$status = registry::register($class_name);
+				$status = registry::register($class_name, array($this->moduleID));
 				if ($status)
 					$response['realms'] = $status->getExchangeOutput();
 				else
