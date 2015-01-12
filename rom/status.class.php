@@ -136,7 +136,7 @@ if (!class_exists('rom_realmstatus')){
 
 			// loop through the servers
 			if (is_array($servers)){
-				$output = '<table width="100%" border="0" cellspacing="1" cellpadding="2" class="noborder">';
+				$output = '<table class="table fullwidth noborder">';
 
 				foreach($servers as $servername){
 					// prepare servername
