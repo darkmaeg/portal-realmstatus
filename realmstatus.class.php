@@ -121,7 +121,7 @@ if (!class_exists('mmo_realmstatus')){
 			// no realm specified?
 			if (count($this->servers) > 0){
 				// wrap within table
-				$output .= '<div class="table">';
+				$output .= '<div class="table fullwidth">';
 				$output .= $this->getOutput($this->servers);
 				$output .= '</div>';
 			}else{
