@@ -53,7 +53,7 @@ if (!class_exists('eq2_realmstatus'))
     protected $game_name = 'eq2';
 
     /* URL to load server status from */
-    private $eq2_url = 'http://census.soe.com/s:eqdkpplus/xml/status/eq2';
+    private $eq2_url = 'http://census.daybreakgames.com/s:eqdkpplus/xml/status/eq2';
 
     /* cache time in seconds default 10 minutes = 600 seconds */
     private $cachetime = 600;
@@ -101,13 +101,13 @@ if (!class_exists('eq2_realmstatus'))
           switch ($this->servers[$servername]['status'])
           {
             case 'down':     return 'down';
-            case 'locked':	 return 'locked';
-			case 'up':		 return 'up';
-			case 'missing' : return 'missing';
-			case 'unknown' : return 'unknown';
-			case 'high': 	 return 'high';
-			case 'medium': 	 return 'medium';
-			case 'low':      return 'low';
+            case 'locked':   return 'locked';
+	    case 'up':	     return 'up';
+	    case 'missing' : return 'missing';
+	    case 'unknown' : return 'unknown';
+	    case 'high':     return 'high';
+	    case 'medium':   return 'medium';
+	    case 'low':      return 'low';
             default:         return 'up';
           }
         }
@@ -174,7 +174,11 @@ if (!class_exists('eq2_realmstatus'))
           }
 
           // output server name
+          if ($servername == 'Nagafen') {$servername = 'Nagafen (PvP)';}
+	  if ($servername == 'Harla Dar') {$servername = 'Harla Dar (PvP)';}
           $output .= '<div class="td">'.$servername.'</div>';
+	  if ($servername == 'Nagafen (PvP)') {$servername = 'Nagafen';}
+	  if ($servername == 'Harla Dar (PvP)') {$servername = 'Harla Dar';}
 
           // output country flag
           $country_flag = $this->getCountryFlag($servername);
