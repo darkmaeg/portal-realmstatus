@@ -101,13 +101,13 @@ if (!class_exists('eq2_realmstatus'))
           switch ($this->servers[$servername]['status'])
           {
             case 'down':     return 'down';
-            case 'locked':   return 'locked';
-	    case 'up':	     return 'up';
-	    case 'missing' : return 'missing';
-	    case 'unknown' : return 'unknown';
-	    case 'high':     return 'high';
-	    case 'medium':   return 'medium';
-	    case 'low':      return 'low';
+            case 'locked':	 return 'locked';
+			case 'up':		 return 'up';
+			case 'missing' : return 'missing';
+			case 'unknown' : return 'unknown';
+			case 'high': 	 return 'high';
+			case 'medium': 	 return 'medium';
+			case 'low':      return 'low';
             default:         return 'up';
           }
         }
@@ -174,17 +174,19 @@ if (!class_exists('eq2_realmstatus'))
           }
 
           // output server name
-          if ($servername == 'Nagafen') {$servername = 'Nagafen (PvP)';}
-	  if ($servername == 'Harla Dar') {$servername = 'Harla Dar (PvP)';}
+		  if ($servername == 'Nagafen') {$servername = 'Nagafen (PvP)';}
+		  if ($servername == 'Harla Dar') {$servername = 'Harla Dar (PvP)';}
           $output .= '<div class="td">'.$servername.'</div>';
-	  if ($servername == 'Nagafen (PvP)') {$servername = 'Nagafen';}
-	  if ($servername == 'Harla Dar (PvP)') {$servername = 'Harla Dar';}
-
+		  if ($servername == 'Nagafen (PvP)') {$servername = 'Nagafen';}
+		  if ($servername == 'Harla Dar (PvP)') {$servername = 'Harla Dar';}
+		  
+		  
+		  
           // output country flag
           $country_flag = $this->getCountryFlag($servername);
           $output .= '<div class="td">';
           if ($country_flag != '')
-            $output .= '<img src="'.$this->env->link.'images/flags/'.$country_flag.'.svg" alt="'.$country_flag.'" title="'.$this->servers[$servername]['region'].'"/>';
+		      $output .= '<img src="'.$this->env->link.'images/flags/'.$country_flag.'.svg" alt="'.$country_flag.'" title="'.$this->servers[$servername]['region'].'"/>';
           $output .= '</div>';
 
           // end row diff
@@ -225,7 +227,7 @@ if (!class_exists('eq2_realmstatus'))
 
     /**
      * loadShards
-     * Load the servers from the SOE website
+     * Load the servers from the daybreak website
      *
      * @return array
      */
@@ -284,7 +286,7 @@ if (!class_exists('eq2_realmstatus'))
           if (strcmp($region, 'EU Français') == 0) return 'fr';
           if (strcmp($region, 'US English') == 0)  return 'us';
           if (strcmp($region, 'Русский') == 0)     return 'ru';
-          if (strcmp($region, '日本語') == 0)      return 'cn';
+          if (strcmp($region, '日本語') == 0)      return 'jp';
         }
       }
 
