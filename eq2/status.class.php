@@ -50,7 +50,7 @@ if (!class_exists('eq2_realmstatus'))
     protected $game_name = 'eq2';
 
     /* URL to load server status from */
-    private $eq2_url = 'http://census.soe.com/s:eqdkpplus/xml/status/eq2';
+    private $eq2_url = 'http://census.daybreakgames.com/s:eqdkpplus/xml/status/eq2';
 
     /* cache time in seconds default 10 minutes = 600 seconds */
     private $cachetime = 600;
@@ -169,8 +169,12 @@ if (!class_exists('eq2_realmstatus'))
           }
 
           // output server name
+          if ($servername == 'Nagafen') {$servername = 'Nagafen (PvP)';}
+	  if ($servername == 'Harla Dar') {$servername = 'Harla Dar (PvP)';}
           $output .= '<div class="td">'.$servername.'</div>';
-
+          if ($servername == 'Nagafen (PvP)') {$servername = 'Nagafen';}
+	  if ($servername == 'Harla Dar (PvP)') {$servername = 'Harla Dar';}
+	  
           // output country flag
           $country_flag = $this->getCountryFlag($servername);
           $output .= '<div class="td">';
@@ -275,7 +279,7 @@ if (!class_exists('eq2_realmstatus'))
           if (strcmp($region, 'EU Français') == 0) return 'fr';
           if (strcmp($region, 'US English') == 0)  return 'us';
           if (strcmp($region, 'Русский') == 0)     return 'ru';
-          if (strcmp($region, '日本語') == 0)      return 'cn';
+          if (strcmp($region, '日本語') == 0)      return 'jp';
         }
       }
 
