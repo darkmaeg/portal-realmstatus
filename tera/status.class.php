@@ -47,7 +47,7 @@ if (!class_exists('tera_realmstatus')){
 		protected $game_name = 'tera';
 
 		/* URL to load serverstatus from */
-		private $status_url = 'http://tera-europe.com/server-status.html';
+		private $status_url = 'http://en.tera.gameforge.com/community/serverstatus';
 
 		/* cache time in seconds default 30 minutes = 1800 seconds */
 		private $cachetime = 1800;
@@ -120,11 +120,11 @@ if (!class_exists('tera_realmstatus')){
 
 					// output status
 					switch ($serverdata['status']){
-						case 'online':
+						case 'status_green':
 							$output .= '<div class="td"><img src="'.$this->image_path.'server_on.png" alt="Online" title="'.$servername.'" /></div>';
 							$isUnknown = false;
 						break;
-						case 'offline':
+						case 'status_red':
 							$output .= '<div class="td"><img src="'.$this->image_path.'server_off.png" alt="Offline" title="'.$servername.'" /></div>';
 							$isUnknown = false;
 						break;
@@ -247,8 +247,9 @@ if (!class_exists('tera_realmstatus')){
 
 			// process the server lists
 			$tera_servers = $server_list->getServers();
+			
 			if (is_array($tera_servers)){
-				foreach ($tera_servers as $server){
+				foreach ($tera_servers as $server){					
 					$servers[$server->name] = array(
 						'status'		=> $server->status,
 						'population'	=> intval($server->population),

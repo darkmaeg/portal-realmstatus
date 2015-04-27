@@ -77,7 +77,8 @@ if (!class_exists('tera_html')){
 		*/
 		private function process(){
 			// get the DOM list for the servers
-			$server_list = $this->dom->find("div[id=serverstatus]", 0);
+			$server_list = $this->dom->find("div[class=server_status_box]", 0);
+
 			if ($server_list)
 				$this->tera_servers = new tera_html_serverlist($server_list);
 		}
@@ -161,8 +162,8 @@ if (!class_exists('tera_html_server')){
 				case 'status':
 					$node = $this->dom->find('td', 0);
 					if (!$node) return 'unknown';
-					$img_node = $node->find('img', 0);
-					return ($img_node ? $img_node->attr['alt'] : 'unknown');
+					$span_node = $node->find('span', 0);
+					return ($node ? trim($span_node->class) : 'unknown');
 				case 'name':
 					$node = $this->dom->find('td', 1);
 					return ($node ? trim($node->text()) : 'Unknown');
