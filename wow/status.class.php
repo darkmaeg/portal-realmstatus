@@ -125,7 +125,7 @@ if (!class_exists('wow_realmstatus')){
 			$name = str_replace(array('\'', ' '), array('', '-'), $name);
 
 			// get the cached (do not force) realm data for this realm
-			$realmdata = $this->game->obj['armory']->realm(array($name), false);
+			$realmdata = $this->game->obj['armory']->realm(array(unsanitize($name)), false);
 
 			// the data are returned as array with
 			// 'realms' => array(array(type, queue, status, population, name, slug))

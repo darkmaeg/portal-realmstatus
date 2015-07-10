@@ -81,6 +81,7 @@ class realmstatus_portal extends portal_generic {
 
 		// try to load the status file for this game
 		$game_name = strtolower($this->game->get_game());
+		
 		$status_file = $this->root_path.'portal/realmstatus/'.$game_name.'/status.class.php';
 		if (file_exists($status_file)) {
 			include_once($status_file);

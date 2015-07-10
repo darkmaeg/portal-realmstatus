@@ -178,7 +178,7 @@ if (!class_exists('mmo_realmstatus')){
 								$(\'#realmstatus_output_'.$this->game_name.'\').html(data);
 							},
 							error: function(jqXHR, textStatus, errorThrown) {
-								var htmlOut = \'<div class="center" style="margin:2px;">'.$this->user->lang('rs_loading_error').'</div>\';
+								var htmlOut = \'<div class="center" style="margin:2px;">'.$this->jquery->sanitize($this->user->lang('rs_loading_error')).'</div>\';
 								$(\'#realmstatus_output_'.$this->game_name.'\').html(htmlOut);
 							},
 							dataType: "html"
