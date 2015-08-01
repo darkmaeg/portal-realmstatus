@@ -176,12 +176,14 @@ if (!class_exists('eq2_realmstatus'))
           // output server name
 		  if ($servername == 'Nagafen') {$servername = 'Nagafen (PvP)';}
 		  if ($servername == 'Harla Dar') {$servername = 'Harla Dar (PvP)';}
+		  if ($servername == 'Stormhold') {$servername = 'Stormhold (TLE)';}
+		  if ($servername == 'Deathtoll') {$servername = 'Deathtoll (TLE)';}
           $output .= '<div class="td">'.$servername.'</div>';
 		  if ($servername == 'Nagafen (PvP)') {$servername = 'Nagafen';}
 		  if ($servername == 'Harla Dar (PvP)') {$servername = 'Harla Dar';}
-		  
-		  
-		  
+		  if ($servername == 'Stormhold (TLE)') {$servername = 'Stormhold';}
+		  if ($servername == 'Deathtoll (TLE)') {$servername = 'Deathtoll';}
+		  		  
           // output country flag
           $country_flag = $this->getCountryFlag($servername);
           $output .= '<div class="td">';
