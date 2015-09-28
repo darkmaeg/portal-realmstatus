@@ -145,41 +145,44 @@ if (!class_exists('eq2_realmstatus'))
           switch ($status)
           {
 			case 'low':
-              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /><img src="'.$this->image_path.'low.png" alt="Low" title="Low" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title=""'.$servername.'" /><img src="'.$this->image_path.'low.png" alt="Low" title="Low" /></div>';
               break;
 			case 'medium':
-              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /><img src="'.$this->image_path.'med.png" alt="Medium" title="Medium" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title=""'.$servername.'" /><img src="'.$this->image_path.'med.png" alt="Medium" title="Medium" /></div>';
               break;
 			case 'high':
-              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /><img src="'.$this->image_path.'high.png" alt="High" title="High" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title=""'.$servername.'" /><img src="'.$this->image_path.'high.png" alt="High" title="High" /></div>';
               break;
             case 'up':
-              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title=""'.$servername.'" /></div>';
               break;
             case 'down':
-              $output .= '<div class="td"><img src="'.$this->image_path.'down.png" alt="Offline" title="'.$servername.'" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'down.png" alt="Down" title=""'.$servername.'" /></div>';
               break;
 			case 'locked':
-              $output .= '<div class="td"><img src="'.$this->image_path.'locked.png" alt="Offline" title="'.$servername.'" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'locked.png" alt="Locked" title=""'.$servername.'" /></div>';
               break;
 			case 'missing':
-              $output .= '<div class="td"><img src="'.$this->image_path.'missing.png" alt="Offline" title="'.$servername.'" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'missing.png" alt="Missing" title=""'.$servername.'" /></div>';
               break;
 			case 'unknown':
-              $output .= '<div class="td"><img src="'.$this->image_path.'unknown.png" alt="Offline" title="'.$servername.'" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'unknown.png" alt="Unknown" title=""'.$servername.'" /></div>';
               break;  
             default:
-              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="'.$this->user->lang('rs_unknown').'" title="'.$servername.' ('.$this->user->lang('rs_unknown').')" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="'.$this->user->lang('rs_unknown').'" title="'.$servername.' ('.$this->user->lang('rs_unknown').')" /></div>';
               break;
           }
 
           // output server name
-		  if ($servername == 'Nagafen') {$servername = 'Nagafen (PvP)';}
+		  
+		  if ($servername == 'Nagafen')   {$servername = 'Nagafen (PvP)';}
 		  if ($servername == 'Harla Dar') {$servername = 'Harla Dar (PvP)';}
 		  if ($servername == 'Stormhold') {$servername = 'Stormhold (TLE)';}
 		  if ($servername == 'Deathtoll') {$servername = 'Deathtoll (TLE)';}
-          $output .= '<div class="td">'.$servername.'</div>';
-		  if ($servername == 'Nagafen (PvP)') {$servername = 'Nagafen';}
+          
+		  $output .= '<div class="td">'.$servername.'</div>';
+		  
+		  if ($servername == 'Nagafen (PvP)')   {$servername = 'Nagafen';}
 		  if ($servername == 'Harla Dar (PvP)') {$servername = 'Harla Dar';}
 		  if ($servername == 'Stormhold (TLE)') {$servername = 'Stormhold';}
 		  if ($servername == 'Deathtoll (TLE)') {$servername = 'Deathtoll';}
