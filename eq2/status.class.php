@@ -25,12 +25,10 @@ if (!defined('EQDKP_INC'))
   exit;
 }
 
-
 if (!class_exists('mmo_realmstatus'))
 {
   include_once(registry::get_const('root_path').'portal/realmstatus/realmstatus.class.php');
 }
-
 
 /*+----------------------------------------------------------------------------
   | eq2_realmstatus
@@ -102,12 +100,12 @@ if (!class_exists('eq2_realmstatus'))
           {
             case 'down':     return 'down';
             case 'locked':	 return 'locked';
-			case 'up':		 return 'up';
+			case 'up'      : return 'up';
 			case 'missing' : return 'missing';
 			case 'unknown' : return 'unknown';
-			case 'high': 	 return 'high';
-			case 'medium': 	 return 'medium';
-			case 'low':      return 'low';
+			case 'high'    : return 'high';
+			case 'medium'  : return 'medium';
+			case 'low'     : return 'low';
             default:         return 'up';
           }
         }
@@ -135,53 +133,54 @@ if (!class_exists('eq2_realmstatus'))
         foreach($servers as $servername)
         {
           // get status
-          $servername = trim($servername);
+	  $servername = trim($servername);
+	  $servername = html_entity_decode($servername, ENT_QUOTES);
           $status = $this->checkServer($servername);
-			
+		 
           // output
           $output .= '<div class="tr">';
 
           // output status
           switch ($status)
           {
-			case 'low':
-              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /><img src="'.$this->image_path.'low.png" alt="Low" title="Low" /></div>';
+	    case 'low':
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title=""'.$servername.'" /><img src="'.$this->image_path.'low.png" alt="Low" title="Low" /></div>';
               break;
-			case 'medium':
-              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /><img src="'.$this->image_path.'med.png" alt="Medium" title="Medium" /></div>';
+	    case 'medium':
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title=""'.$servername.'" /><img src="'.$this->image_path.'med.png" alt="Medium" title="Medium" /></div>';
               break;
-			case 'high':
-              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /><img src="'.$this->image_path.'high.png" alt="High" title="High" /></div>';
+	    case 'high':
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title=""'.$servername.'" /><img src="'.$this->image_path.'high.png" alt="High" title="High" /></div>';
               break;
             case 'up':
-              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title=""'.$servername.'" /></div>';
               break;
             case 'down':
-              $output .= '<div class="td"><img src="'.$this->image_path.'down.png" alt="Offline" title="'.$servername.'" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'down.png" alt="Down" title=""'.$servername.'" /></div>';
               break;
-			case 'locked':
-              $output .= '<div class="td"><img src="'.$this->image_path.'locked.png" alt="Offline" title="'.$servername.'" /></div>';
+	    case 'locked':
+              $output .= '<div class="tr"><img src="'.$this->image_path.'locked.png" alt="Locked" title=""'.$servername.'" /></div>';
               break;
-			case 'missing':
-              $output .= '<div class="td"><img src="'.$this->image_path.'missing.png" alt="Offline" title="'.$servername.'" /></div>';
+	    case 'missing':
+              $output .= '<div class="tr"><img src="'.$this->image_path.'missing.png" alt="Missing" title=""'.$servername.'" /></div>';
               break;
-			case 'unknown':
-              $output .= '<div class="td"><img src="'.$this->image_path.'unknown.png" alt="Offline" title="'.$servername.'" /></div>';
+	    case 'unknown':
+              $output .= '<div class="tr"><img src="'.$this->image_path.'unknown.png" alt="Unknown" title=""'.$servername.'" /></div>';
               break;  
             default:
-              $output .= '<div class="td"><img src="'.$this->image_path.'up.png" alt="'.$this->user->lang('rs_unknown').'" title="'.$servername.' ('.$this->user->lang('rs_unknown').')" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="'.$this->user->lang('rs_unknown').'" title="'.$servername.' ('.$this->user->lang('rs_unknown').')" /></div>';
               break;
           }
 
           // output server name
-		  if ($servername == 'Nagafen') {$servername = 'Nagafen (PvP)';}
-		  if ($servername == 'Harla Dar') {$servername = 'Harla Dar (PvP)';}
+	  if ($servername == 'Harla Dar') {$servername = 'Harla Dar (PvP)';}
+	  if ($servername == 'Stormhold') {$servername = 'Stormhold (TLE)';}
+	  if ($servername == 'Deathtoll') {$servername = 'Deathtoll (TLE)';}
           $output .= '<div class="td">'.$servername.'</div>';
-		  if ($servername == 'Nagafen (PvP)') {$servername = 'Nagafen';}
-		  if ($servername == 'Harla Dar (PvP)') {$servername = 'Harla Dar';}
-		  
-		  
-		  
+	  if ($servername == 'Harla Dar (PvP)') {$servername = 'Harla Dar';}
+	  if ($servername == 'Stormhold (TLE)') {$servername = 'Stormhold';}
+	  if ($servername == 'Deathtoll (TLE)') {$servername = 'Deathtoll';}
+		  		  
           // output country flag
           $country_flag = $this->getCountryFlag($servername);
           $output .= '<div class="td">';
@@ -287,9 +286,10 @@ if (!class_exists('eq2_realmstatus'))
           if (strcmp($region, 'US English') == 0)  return 'us';
           if (strcmp($region, 'Русский') == 0)     return 'ru';
           if (strcmp($region, '日本語') == 0)      return 'jp';
-        }
+	  if (strcmp($region, 'Beta') == 0)        return 'us';
+	  if (strcmp($region, 'Public Test') == 0) return 'us';
+	}
       }
-
       return '';
     }
   }
