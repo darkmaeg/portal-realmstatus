@@ -285,7 +285,7 @@ if (!class_exists('eq2_realmstatus'))
           if (strcmp($region, 'EU Français') == 0) return 'fr';
           if (strcmp($region, 'US English') == 0)  return 'us';
           if (strcmp($region, 'Русский') == 0)     return 'ru';
-          if (strcmp($region, '日本語') == 0)      return 'jp';
+          if (strcmp($region, '日本語') == 0)         return 'jp';
 	  if (strcmp($region, 'Beta') == 0)        return 'us';
 	  if (strcmp($region, 'Public Test') == 0) return 'us';
 	}
