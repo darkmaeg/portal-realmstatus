@@ -144,28 +144,28 @@ if (!class_exists('eq2_realmstatus'))
           switch ($status)
           {
 	    case 'low':
-              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title=""'.$servername.'" /><img src="'.$this->image_path.'low.png" alt="Low" title="Low" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /><img src="'.$this->image_path.'low.png" alt="Low" title="Low" /></div>';
               break;
 	    case 'medium':
-              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title=""'.$servername.'" /><img src="'.$this->image_path.'med.png" alt="Medium" title="Medium" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /><img src="'.$this->image_path.'med.png" alt="Medium" title="Medium" /></div>';
               break;
 	    case 'high':
-              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title=""'.$servername.'" /><img src="'.$this->image_path.'high.png" alt="High" title="High" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /><img src="'.$this->image_path.'high.png" alt="High" title="High" /></div>';
               break;
             case 'up':
-              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title=""'.$servername.'" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="Online" title="'.$servername.'" /></div>';
               break;
             case 'down':
-              $output .= '<div class="tr"><img src="'.$this->image_path.'down.png" alt="Down" title=""'.$servername.'" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'down.png" alt="Down" title="'.$servername.'" /></div>';
               break;
 	    case 'locked':
-              $output .= '<div class="tr"><img src="'.$this->image_path.'locked.png" alt="Locked" title=""'.$servername.'" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'locked.png" alt="Locked" title="'.$servername.'" /></div>';
               break;
 	    case 'missing':
-              $output .= '<div class="tr"><img src="'.$this->image_path.'missing.png" alt="Missing" title=""'.$servername.'" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'missing.png" alt="Missing" title="'.$servername.'" /></div>';
               break;
 	    case 'unknown':
-              $output .= '<div class="tr"><img src="'.$this->image_path.'unknown.png" alt="Unknown" title=""'.$servername.'" /></div>';
+              $output .= '<div class="tr"><img src="'.$this->image_path.'unknown.png" alt="Unknown" title="'.$servername.'" /></div>';
               break;  
             default:
               $output .= '<div class="tr"><img src="'.$this->image_path.'up.png" alt="'.$this->user->lang('rs_unknown').'" title="'.$servername.' ('.$this->user->lang('rs_unknown').')" /></div>';
@@ -285,7 +285,7 @@ if (!class_exists('eq2_realmstatus'))
           if (strcmp($region, 'EU Français') == 0) return 'fr';
           if (strcmp($region, 'US English') == 0)  return 'us';
           if (strcmp($region, 'Русский') == 0)     return 'ru';
-          if (strcmp($region, '日本語') == 0)         return 'jp';
+          if (strcmp($region, '日本語') == 0)      return 'jp';
 	  if (strcmp($region, 'Beta') == 0)        return 'us';
 	  if (strcmp($region, 'Public Test') == 0) return 'us';
 	}
